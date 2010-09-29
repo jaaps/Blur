@@ -1,0 +1,79 @@
+<fonts>
+<fontset id="default" unicode="true">
+  
+	<font>
+		<name>Large</name>
+		<filename>MuseoSans_500.ttf</filename>
+		<size>36</size>
+	</font>
+	<font>
+		<name>title1</name>
+		<filename>Segan-Light.ttf</filename>
+		<size>30</size>
+	</font>
+	<font>
+		<name>HomeMenuItem</name>
+		<filename>Segan-Light.ttf</filename>
+		<size>40</size>
+	</font>
+	<font>
+		<name>HomeMenuItemNoFocus</name>
+		<filename>Segan-Light.ttf</filename>
+		<size>23</size>
+	</font>
+	<font>
+		<name>info1</name>
+		<filename>Segan-Light.ttf</filename>
+		<size>20</size>
+	</font>
+	<font>
+		<name>list2</name>
+		<filename>Segan-Light.ttf</filename>
+		<size>17</size>
+	</font>
+	<font>
+		<name>list1</name>
+		<filename>Segan-Light.ttf</filename>
+		<size>19</size>
+	</font>
+	<font>
+		<name>album1</name>
+		<filename>Segan-Light.ttf</filename>
+		<size>14</size>
+	</font>
+	<font>
+		<name>list1active</name>
+		<filename>Segan-Light.ttf</filename>
+		<size>20</size>
+	</font>
+	<font>
+		<name>plot1</name>
+		<filename>Segan-Light.ttf</filename>
+		<size>22</size>
+	</font>
+	<font>
+		<name>info2</name>
+		<filename>HelveticaNeue</filename>
+		<variant>Light</variant>
+		<size>14</size>
+	</font>
+	<font>
+		<name>Large</name>
+		<filename>Arial.ttf</filename>
+		<size>36</size>
+	</font>
+	<font>
+		<name>Small</name>
+		<filename>Arial.ttf</filename>
+		<size>14</size>
+	</font>
+  
+  <!-- Required for system -->
+  <font>
+    <name>font13</name>
+    <filename>Arial.ttf</filename>
+    <size>14</size>
+  </font>
+  
+</fontset>
+</fonts>

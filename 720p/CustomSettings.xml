@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<window id="56">
+	<defaultcontrol always="true">3</defaultcontrol>
+	<allowoverlay>yes</allowoverlay>
+	<controls>
+		<include>Background</include>
+		<control type="label">
+			<description>First title</description>
+			<label>CUSTOM SETTINGS</label>
+			<posx>30</posx>
+			<posy>15</posy>
+			<width>1000</width>
+			<height>56</height>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>title1</font>
+			<textcolor>White</textcolor>
+		</control>
+		<control type="grouplist" id="3">
+			<description>Home Wraplist</description>
+			<posx>30</posx>
+			<posy>100</posy>
+			<width>200</width>
+			<height>480</height>
+			<itemgap>2</itemgap>
+			<onleft>5</onleft>
+			<onright>5</onright>
+			<onup>3</onup>
+			<ondown>3</ondown>
+			<orientation>vertical</orientation>
+			<control type="button" id="1">
+				<description>Background</description>
+				<label>Background</label>
+				<onclick>-</onclick>
+			</control>
+			<control type="button" id="2">
+				<description>Features</description>
+				<label>Features</label>
+				<onclick>-</onclick>
+			</control>
+		</control>
+		<control type="group" id="200">
+			<control type="grouplist" id="5">
+				<visible>ControlGroup(3).Hasfocus(1)</visible>
+				<description>Control Area</description>
+				<posx>290</posx>
+				<posy>100</posy>
+				<width>710</width>
+				<height>480</height>
+				<itemgap>9</itemgap>
+				<onleft>3</onleft>
+				<onright>3</onright>
+				<orientation>vertical</orientation>
+				<control type="button" id="2011">
+					<visible>!Skin.String(Custom_Background)</visible>
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<label>Select a Custom Background</label>
+					<include>BackgroundReset</include>
+					<onclick>Skin.SetImage(Custom_Background)</onclick>
+					<onclick>XBMC.ReloadSkin()</onclick>
+				</control>
+				<control type="button" id="2012">
+					<visible>Skin.String(Custom_Background)</visible>
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<textoffsetx>20</textoffsetx>
+					<label>Use a Default Background</label>
+					<include>BackgroundReset</include>
+					<onclick>XBMC.ReloadSkin()</onclick>
+				</control>
+				<control type="label" id="2013">
+					<visible>!Skin.String(Custom_Background)</visible>
+					<description>First title</description>
+					<label>Preset Backgrounds</label>
+					<posx>30</posx>
+					<posy>15</posy>
+					<width>1000</width>
+					<height>56</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>info1</font>
+					<textcolor>White</textcolor>
+				</control>
+				<control type="radiobutton" id="2014">
+					<visible>!Skin.String(Custom_Background)</visible>
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<radioposx>877</radioposx>
+					<radiowidth>65</radiowidth>
+					<radioheight>37</radioheight>
+					<label>Dew Drop</label>
+					<selected>!Skin.HasSetting(Background1)</selected>
+					<include>BackgroundReset</include>
+					<onclick>XBMC.ReloadSkin()</onclick>
+					<onclick>Control.Move(50,0)</onclick>
+				</control>
+				<control type="radiobutton" id="2015">
+					<visible>!Skin.String(Custom_Background)</visible>
+					<height>50</height>
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<radioposx>877</radioposx>
+					<radiowidth>65</radiowidth>
+					<radioheight>37</radioheight>
+					<label>Aurora</label>
+					<selected>Skin.HasSetting(Background2)</selected>
+					<include>BackgroundReset</include>
+					<onclick>Skin.SetBool(Background1)</onclick>
+					<onclick>Skin.SetBool(Background2)</onclick>
+					<onclick>XBMC.ReloadSkin()</onclick>
+					<onclick>Control.Move(50,0)</onclick>
+				</control>
+				<control type="radiobutton" id="2016">
+					<visible>!Skin.String(Custom_Background)</visible>
+					<height>50</height>
+					<width>962</width>
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<radioposx>877</radioposx>
+					<radiowidth>65</radiowidth>
+					<radioheight>37</radioheight>
+					<label>Calm Water</label>
+					<selected>Skin.HasSetting(Background3)</selected>
+					<include>BackgroundReset</include>
+					<onclick>Skin.SetBool(Background1)</onclick>
+					<onclick>Skin.SetBool(Background3)</onclick>
+					<onclick>XBMC.ReloadSkin()</onclick>
+					<onclick>Control.Move(50,0)</onclick>
+				</control>
+				<control type="radiobutton" id="2017">
+					<visible>!Skin.String(Custom_Background)</visible>
+					<height>50</height>
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<radioposx>877</radioposx>
+					<radiowidth>65</radiowidth>
+					<radioheight>37</radioheight>
+					<label>Dark Night</label>
+					<selected>Skin.HasSetting(Background3)</selected>
+					<include>BackgroundReset</include>
+					<onclick>Skin.SetBool(Background1)</onclick>
+					<onclick>Skin.SetBool(Background4)</onclick>
+					<onclick>XBMC.ReloadSkin()</onclick>
+					<onclick>Control.Move(50,0)</onclick>
+				</control>
+				<control type="label" id="2018">
+					<description>First title</description>
+					<label>Bokeh Settings</label>
+					<posx>30</posx>
+					<posy>15</posy>
+					<width>1000</width>
+					<height>56</height>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>info1</font>
+					<textcolor>White</textcolor>
+				</control>
+				<control type="button" id="2019">
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<label>Toggle Bokeh 1</label>
+					<onclick>Skin.ToggleSetting(Bokeh1)</onclick>
+					<onclick>XBMC.ReloadSkin()</onclick>
+				</control>
+				<control type="button" id="2020">
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<label>Toggle Bokeh 2</label>
+					<onclick>Skin.ToggleSetting(Bokeh2)</onclick>
+					<onclick>XBMC.ReloadSkin()</onclick>
+				</control>
+			</control>
+			<control type="grouplist" id="5">
+				<visible>ControlGroup(3).Hasfocus(2)</visible>
+				<description>Control Area</description>
+				<posx>290</posx>
+				<posy>100</posy>
+				<width>710</width>
+				<height>480</height>
+				<itemgap>9</itemgap>
+				<onleft>3</onleft>
+				<onright>3</onright>
+				<orientation>vertical</orientation>
+				<control type="radiobutton" id="2019">
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<label>Show Fanart</label>
+										<selected>Skin.HasSetting(Fanart)</selected>
+					<onclick>Skin.ToggleSetting(Fanart)</onclick>
+				</control>
+				<control type="radiobutton" id="2020">
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<label>Show HD Icon</label>
+					<onclick>Skin.ToggleSetting(Flags)</onclick>
+										<selected>Skin.HasSetting(Flags)</selected>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>
