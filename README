@@ -1,0 +1,42 @@
+------------------------------------------------
+- Blur
+------------------------------------------------
+ A skin for Plex by jaaps
+ 
+ Using stuff from:
+ - reFocus by Jeroen/ElMassman
+ - MediaStream by Team Razorfish and Team Plex
+ - Empty by WIR3D
+ - Lithium by RedDragon
+ - Sweet Candy iPhone HD by AlcoolGeek
+ - Sounds from an Aeon Mod.. author unknown
+ - Boxee by Team Boxee
+
+ This skin wouldn't be possibly without their
+ work. So Thanks! 
+
+ Also Thanks to Team Plex for the great work
+ on Plex/Nine.
+
+ And thanks to Team XBMC for their hard work
+ which made Plex possible to begin with. 
+
+------------------------------------------------
+ Some backgrounds are based on wallpapers
+ found in Mac OS X
+------------------------------------------------
+
+
+
+------------------------------------------------
+ To use Icons for Plex Media Server Entries:
+------------------------------------------------
+ Put a png image with the name of the PMS
+ Entry in media/icons/
+
+ For example:
+ PMS Entry name: My Movies
+ Icon: media/icons/My Movies.png
+
+------------------------------------------------
+------------------------------------------------
