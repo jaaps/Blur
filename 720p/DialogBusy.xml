@@ -1,14 +1,11 @@
+<?xml version="1.0"?>
 <window id="136">
 	<defaultcontrol always="true">99</defaultcontrol>
-
 	<coordinates>
 		<system>1</system>
 		<posx>20</posx>
 		<posy>20</posy>
 	</coordinates>
-	
-	<include>fadeinout</include>
-	
 	<controls>
 		<control type="group">
 			<control type="image">

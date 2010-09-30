@@ -222,7 +222,7 @@
 					<texturefocus>button.png</texturefocus>
 					<texturenofocus>-</texturenofocus>
 					<label>Show Fanart</label>
-										<selected>Skin.HasSetting(Fanart)</selected>
+					<selected>Skin.HasSetting(Fanart)</selected>
 					<onclick>Skin.ToggleSetting(Fanart)</onclick>
 				</control>
 				<control type="radiobutton" id="2020">
@@ -234,7 +234,7 @@
 					<texturenofocus>-</texturenofocus>
 					<label>Show HD Icon</label>
 					<onclick>Skin.ToggleSetting(Flags)</onclick>
-										<selected>Skin.HasSetting(Flags)</selected>
+					<selected>Skin.HasSetting(Flags)</selected>
 				</control>
 			</control>
 		</control>

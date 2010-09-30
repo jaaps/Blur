@@ -1,21 +1,18 @@
+<?xml version="1.0"?>
 <window id="128">
 	<defaultcontrol>10</defaultcontrol>
-	
 	<include>dialogOpen</include>
-	
 	<coordinates>
 		<system>1</system>
 		<posx>340</posx>
 		<posy>170</posy>
 	</coordinates>
-	
 	<controls>
 		<control type="image" id="0">
 			<width>600</width>
 			<height>500</height>
 			<include>dialogWindow</include>
 		</control>
-		
 		<control type="label" id="20">
 			<description>Heading Label</description>
 			<posx>34</posx>
@@ -23,16 +20,13 @@
 			<label>1007</label>
 			<include>dialogHeading</include>
 		</control>
-		
 		<control type="group">
 			<posx>19</posx>
 			<posy>75</posy>
-			
 			<control type="image">
 				<width>563</width>
 				<include>dialogSeparator</include>
 			</control>
-			
 			<control type="spincontrolex" id="10">
 				<description>Protocol SpinControl</description>
 				<posy>0</posy>
@@ -45,7 +39,6 @@
 				<onright>10</onright>
 				<include>dialogSpin</include>
 			</control>
-	
 			<control type="button" id="11">
 				<description>Server Name Button</description>
 				<posy>40</posy>
@@ -56,7 +49,6 @@
 				<ondown>16</ondown>
 				<include>dialogListButton</include>
 			</control>
-
 			<control type="button" id="12">
 				<description>Server Browse Button</description>
 				<posx>443</posx>
@@ -71,7 +63,6 @@
 				<ondown>16</ondown>
 				<include>dialogListButton</include>
 			</control>
-	
 			<control type="button" id="16">
 				<description>Remote path Button</description>
 				<posy>80</posy>
@@ -83,7 +74,6 @@
 				<ondown>13</ondown>
 				<include>dialogListButton</include>
 			</control>
-	
 			<control type="button" id="13">
 				<description>Port Button</description>
 				<posy>120</posy>
@@ -118,7 +108,6 @@
 				<include>dialogListButton</include>
 			</control>
 		</control>
-		
 		<control type="group">
 			<posx>315</posx>
 			<posy>423</posy>
@@ -142,6 +131,5 @@
 				<include>dialogConfirmButton</include>
 			</control>
 		</control>
-
 	</controls>
 </window>

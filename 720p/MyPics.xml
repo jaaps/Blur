@@ -26,29 +26,7 @@
 			<onup>9000</onup>
 			<ondown>9000</ondown>
 			<orientation>vertical</orientation>
-			<control type="button" id="9001">
-				<description>List view button</description>
-				<label>List</label>
-				<onclick>Container.SetViewMode(50)</onclick>
-			</control>
-			<control type="button" id="9002">
-				<description>Info List view button</description>
-				<visible>!Container.Content(secondary)</visible>
-				<label>Info List</label>
-				<onclick>Container.SetViewMode(51)</onclick>
-			</control>
-			<control type="button" id="9003">
-				<description>Horizon view button</description>
-				<visible>!Container.Content(secondary) + !Container.Content(episodes) + !Container.Content(albums) + !Container.Content(artists) + !Container.Content(songs)</visible>
-				<label>Horizon</label>
-				<onclick>Container.SetViewMode(56)</onclick>
-			</control>
-			<control type="button" id="9004">
-				<description>Poster view button</description>
-				<visible>!Container.Content(episodes) + !Container.Content(Pictures) + !Container.Content(albums) + !Container.Content(songs) + !Container.Content(artists) + !Container.Content(secondary)</visible>
-				<label>Panel</label>
-				<onclick>Container.SetViewMode(55)</onclick>
-			</control>
+			<include>SideMenuViews</include>
 			<control type="button" id="6">
 				<description>Slideshow</description>
 				<label>$LOCALIZE[108]</label>

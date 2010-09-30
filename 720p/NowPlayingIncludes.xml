@@ -2,10 +2,9 @@
 <includes>
 	<include name="BackgroundNowPlaying">
 		<control type="group">
-			      <visible>!MusicPlayer.NowPlayingFlipped</visible>
-				<animation effect="fade" start="0" end="100" time="900">Visible</animation>
-
-				<animation effect="fade" start="100" end="0" time="900">Hidden</animation>
+			<visible>!MusicPlayer.NowPlayingFlipped</visible>
+			<animation effect="fade" start="0" end="100" time="900">Visible</animation>
+			<animation effect="fade" start="100" end="0" time="900">Hidden</animation>
 			<control type="image">
 				<description>Background Image</description>
 				<posx>0</posx>
@@ -63,13 +62,10 @@
 				<fadetime>0</fadetime>
 			</control>
 		</control>
-		
 		<control type="group">
-			      <visible>MusicPlayer.NowPlayingFlipped</visible>
-				<animation effect="fade" start="0" end="100" time="900">Visible</animation>
-
-				<animation effect="fade" start="100" end="0" time="900">Hidden</animation>
-			
+			<visible>MusicPlayer.NowPlayingFlipped</visible>
+			<animation effect="fade" start="0" end="100" time="900">Visible</animation>
+			<animation effect="fade" start="100" end="0" time="900">Hidden</animation>
 			<control type="image">
 				<description>Background Image</description>
 				<posx>0</posx>

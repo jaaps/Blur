@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <includes>
 	<include name="notificationTop">
 		<posy>9</posy>
@@ -6,7 +7,7 @@
 		<height>40</height>
 		<font>info1</font>
 		<aligny>center</aligny>
-		<textcolor>White</textcolor>	
+		<textcolor>White</textcolor>
 		<animation effect="slide" start="0" end="-45" time="100" tween="Cubic" condition="Window.IsActive(107)">Conditional</animation>
 	</include>
 	<include name="notificationBottom">
@@ -16,7 +17,7 @@
 		<font>info1</font>
 		<height>40</height>
 		<aligny>center</aligny>
-		<textcolor>Black</textcolor>	
+		<textcolor>Black</textcolor>
 		<animation effect="slide" start="0" end="-45" time="100" tween="Cubic" condition="Window.IsActive(107)">Conditional</animation>
 	</include>
 	<include name="notificationSide">
@@ -26,31 +27,20 @@
 		<aligny>top</aligny>
 		<font>info1</font>
 		<textcolor>White</textcolor>
-
 	</include>
 	<include name="dialogOpen">
 		<animation type="WindowOpen">
-			<effect type="zoom" start="80" end="100" center="640,360" tween="back" time="250" />
-			<effect type="fade" start="0" end="100" time="400" />
+			<effect type="zoom" start="80" end="100" center="640,360" tween="back" time="250"/>
+			<effect type="fade" start="0" end="100" time="400"/>
 		</animation>
 		<animation type="WindowClose">
-			<effect type="zoom" start="100" end="90" center="640,360" time="150" />
-			<effect type="fade" start="100" end="0" time="200" />
+			<effect type="zoom" start="100" end="90" center="640,360" time="150"/>
+			<effect type="fade" start="100" end="0" time="200"/>
 		</animation>
-		<!--animation type="Visible">
-			<effect type="zoom" start="90" end="100" center="640,360" tween="back" time="250" />
-			<effect type="fade" start="0" end="100" time="400" />
-		</animation>
-		<animation type="Hidden">
-			<effect type="zoom" start="100" end="90" center="640,360" time="150" />
-			<effect type="fade" start="100" end="0" time="200" />
-		</animation-->
 	</include>
-	<!-- DIALOG INCLUDES ------------------------------------------------------------------------->
 	<include name="dialogWindow">
 		<texture border="29">dialogs/dialogWindow.png</texture>
 	</include>
-	
 	<include name="contextMenuButton">
 		<font>info1</font>
 		<textcolor>Black</textcolor>
@@ -64,7 +54,6 @@
 		<textoffsetx>25</textoffsetx>
 		<pulseonselect>false</pulseonselect>
 	</include>
-	
 	<include name="dialogLabel">
 		<textoffsetx>15</textoffsetx>
 		<textoffsety>10</textoffsety>
@@ -74,7 +63,6 @@
 		<font>info1</font>
 		<textcolor>Black</textcolor>
 	</include>
-	
 	<include name="dialogHeading">
 		<posx>34</posx>
 		<posy>28</posy>
@@ -94,7 +82,6 @@
 		<textcolor>Black</textcolor>
 		<scroll>false</scroll>
 	</include>
-
 	<include name="dialogSubHeading">
 		<height>22</height>
 		<align>left</align>
@@ -102,8 +89,7 @@
 		<font>list1</font>
 		<textcolor>Black</textcolor>
 	</include>
-
-	<include name="dialogButton">	
+	<include name="dialogButton">
 		<width>120</width>
 		<height>42</height>
 		<font>info1</font>
@@ -116,22 +102,7 @@
 		<focusedcolor>White</focusedcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
-
-	<!--<include name="dialogButton2">	
-		<width>115</width>
-		<height>42</height>
-		<font>small</font>
-		<align>center</align>
-		<aligny>center</aligny>
-		<texturenofocus border="3">dialogButton.png</texturenofocus>
-		<texturefocus border="3">dialogButton-focus.png</texturefocus>
-		<textcolor>Black</textcolor>
-		<shadowcolor>fff4f4f4</shadowcolor>
-		<focusedcolor>Black</focusedcolor>
-		<pulseonselect>false</pulseonselect>
-	</include>-->
-
-	<include name="dialogConfirmButton">	
+	<include name="dialogConfirmButton">
 		<width>120</width>
 		<height>42</height>
 		<font>info1</font>
@@ -144,7 +115,6 @@
 		<focusedcolor>White</focusedcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
-
 	<include name="dialogListButton">
 		<textcolor>Black</textcolor>
 		<textoffsetx>15</textoffsetx>
@@ -166,8 +136,7 @@
 		<height>40</height>
 		<texture border="3">dialogs/list-nofocus.png</texture>
 	</include>
-
-	<include name="dialogTextField">	
+	<include name="dialogTextField">
 		<height>40</height>
 		<font>info1</font>
 		<align>center</align>
@@ -179,7 +148,6 @@
 		<focusedcolor>Black</focusedcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
-
 	<include name="dialogRadio">
 		<textcolor>Black</textcolor>
 		<focusedcolor>White</focusedcolor>
@@ -210,14 +178,12 @@
 		<spinwidth>26</spinwidth>
 		<spinheight>26</spinheight>
 	</include>
-
 	<include name="dialogSlider">
 		<texturefocus border="3">dialogs/list-focus.png</texturefocus>
 		<texturenofocus border="3">dialogs/list-nofocus.png</texturenofocus>
 		<texturesliderbar>dialogs/sliderBackground.png</texturesliderbar>
 		<textureslidernib>dialogs/sliderNib.png</textureslidernib>
 		<textureslidernibfocus>dialogs/sliderNib.png</textureslidernibfocus>
-		
 		<font>info1</font>
 		<height>40</height>
 		<textcolor>Black</textcolor>
@@ -226,8 +192,6 @@
 		<textoffsety>15</textoffsety>
 		<pulseonselect>false</pulseonselect>
 	</include>
-
-
 	<include name="dialogScroller">
 		<width>20</width>
 		<texturesliderbackground border="4,7,4,7">dialogScrollerBackground.png</texturesliderbackground>
@@ -237,13 +201,10 @@
 		<textureslidernibfocus>-</textureslidernibfocus>
 		<orientation>vertical</orientation>
 	</include>
-
 	<include name="dialogSeparator">
 		<height>1</height>
 		<texture>dialogs/separator.png</texture>
 	</include>
-
-
 	<include name="keyboardButton">
 		<font>info1</font>
 		<texturenofocus border="8,3,8,3">dialogs/buttonKB.png</texturenofocus>
@@ -255,7 +216,4 @@
 		<align>center</align>
 		<textoffsety>10</textoffsety>
 	</include>
-
-	
-	
 </includes>

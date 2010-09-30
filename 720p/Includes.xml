@@ -3,8 +3,8 @@
 	<include file="Defaults.xml"/>
 	<include file="CommonViews.xml"/>
 	<include file="OSDIncludes.xml"/>
-		<include file="NowPlayingIncludes.xml"/>
-				<include file="IncludesDialogs.xml"/>
+	<include file="NowPlayingIncludes.xml"/>
+	<include file="IncludesDialogs.xml"/>
 	<include name="DialogBack">
 		<control type="image">
 			<width>520</width>
@@ -19,6 +19,31 @@
 		<font>Small</font>
 		<textcolor>Red</textcolor>
 		<align>left</align>
+	</include>
+	<include name="SideMenuViews">
+		<control type="button" id="9001">
+			<description>List view button</description>
+			<label>List</label>
+			<onclick>Container.SetViewMode(50)</onclick>
+		</control>
+		<control type="button" id="9002">
+			<description>Info List view button</description>
+			<visible>!Container.Content(secondary)</visible>
+			<label>Info List</label>
+			<onclick>Container.SetViewMode(51)</onclick>
+		</control>
+		<control type="button" id="9003">
+			<description>Horizon view button</description>
+			<visible>!Container.Content(secondary) + !Container.Content(episodes) + !Container.Content(albums) + !Container.Content(artists) + !Container.Content(songs)</visible>
+			<label>Horizon</label>
+			<onclick>Container.SetViewMode(56)</onclick>
+		</control>
+		<control type="button" id="9004">
+			<description>Poster view button</description>
+			<visible>!Container.Content(episodes) + !Container.Content(Pictures) + !Container.Content(albums) + !Container.Content(songs) + !Container.Content(artists) + !Container.Content(secondary)</visible>
+			<label>Panel</label>
+			<onclick>Container.SetViewMode(55)</onclick>
+		</control>
 	</include>
 	<include name="Custom_Background">
 		<texture>$INFO[Skin.String(Custom_Background)]</texture>
@@ -44,7 +69,6 @@
 	<include name="Bokeh2">
 		<texture>backgrounds/Bokeh3.png</texture>
 	</include>
-	
 	<include name="Custom_BackgroundFlipped">
 		<texture flipx="true">$INFO[Skin.String(Custom_Background)]</texture>
 	</include>
@@ -144,7 +168,6 @@
 		<onclick>Skin.Reset(Background3)</onclick>
 	</include>
 	<include name="videoPageLabel">
-		
 		<posx>30</posx>
 		<posy>15</posy>
 		<width>1000</width>

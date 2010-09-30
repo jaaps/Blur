@@ -1,19 +1,17 @@
+<?xml version="1.0"?>
 <window id="115">
 	<defaultcontrol>901</defaultcontrol>
 	<visible>![Window.IsVisible(script-XBMC-Subtitles-main.xml) | Window.IsActive(101) | Window.IsActive(2901) | Window.IsActive(142) ] + [Player.Caching | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
-
 	<controls>
 		<control type="group" id="213">
 			<posx>0</posx>
 			<posy>635</posy>
 			<include>videoFullScreenInfo</include>
-			
 			<control type="image" id="1">
 				<include>screenwidth</include>
 				<height>230</height>
 				<texture flipy="false">OSD/fullscreenInfo.png</texture>
 			</control>
-
 			<control type="progress" id="1">
 				<description>Progressbar</description>
 				<posx>220</posx>
@@ -22,7 +20,6 @@
 				<height>22</height>
 				<info>Player.Progress</info>
 			</control>
-			
 			<control type="group" id="901">
 				<posx>200</posx>
 				<posy>46</posy>
@@ -35,7 +32,6 @@
 					<include>Heading3</include>
 					<visible>Player.DisplayAfterSeek + ![Player.Forwarding | Player.Rewinding]</visible>
 				</control>
-				
 				<control type="label" id="24">
 					<align>right</align>
 					<label>$LOCALIZE[15107]</label>
@@ -44,7 +40,6 @@
 					<include>Heading3</include>
 					<visible>Player.Caching</visible>
 				</control>
-
 				<control type="label" id="0">
 					<align>right</align>
 					<label>$LOCALIZE[31040]</label>
@@ -142,7 +137,6 @@
 					<include>Heading3</include>
 				</control>
 			</control>
-		
 			<control type="group" id="901">
 				<posx>1000</posx>
 				<posy>46</posy>

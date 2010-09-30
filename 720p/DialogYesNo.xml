@@ -1,21 +1,18 @@
+<?xml version="1.0"?>
 <window id="100">
 	<defaultcontrol always="true">10</defaultcontrol>
-	
 	<coordinates>
 		<system>1</system>
 		<posx>365</posx>
 		<posy>235</posy>
 	</coordinates>
-	
 	<include>dialogOpen</include>
-	
 	<controls>
 		<control type="image">
 			<width>550</width>
 			<height>250</height>
 			<include>dialogWindow</include>
 		</control>
-		
 		<control type="label" id="1">
 			<description>heading label</description>
 			<width>482</width>
@@ -40,11 +37,9 @@
 			<width>482</width>
 			<include>dialogLine</include>
 		</control>
-
 		<control type="group">
 			<posy>174</posy>
 			<posx>150</posx>
-			
 			<control type="button" id="11">
 				<description>Yes button</description>
 				<label>107</label>

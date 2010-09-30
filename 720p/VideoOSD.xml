@@ -1,7 +1,7 @@
+<?xml version="1.0"?>
 <window id="2901">
 	<defaultcontrol>602</defaultcontrol>
-	
-	<controls>		
+	<controls>
 		<control type="group">
 			<visible>![Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)]</visible>
 			<include>state_OSD</include>
@@ -28,13 +28,11 @@
 				<textcolor>Black</textcolor>
 			</control>
 		</control>
-
 		<control type="group" id="200">
 			<posx>341</posx>
 			<posy>665</posy>
 			<visible>![Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)]</visible>
 			<include>state_OSD</include>
-
 			<control type="button" id="700">
 				<width>48</width>
 				<height>48</height>

@@ -1,16 +1,13 @@
+<?xml version="1.0"?>
 <window id="139">
 	<defaultcontrol>5</defaultcontrol>
-	
 	<include>dialogOpen</include>
-	
 	<coordinates>
 		<system>1</system>
 		<posx>265</posx>
 		<posy>70</posy>
 	</coordinates>
-	
 	<controls>
-		
 		<control type="group">
 			<control type="image">
 				<width>750</width>
@@ -29,7 +26,6 @@
 				<width>712</width>
 				<include>dialogSeparator</include>
 			</control>
-	
 			<control type="list" id="5">
 				<posx>19</posx>
 				<posy>76</posy>
@@ -93,7 +89,6 @@
 					</control>
 				</focusedlayout>
 			</control>
-	
 			<control type="label">
 				<posx>34</posx>
 				<posy>488</posy>

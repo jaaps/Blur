@@ -1,22 +1,18 @@
+<?xml version="1.0"?>
 <window id="109">
 	<defaultcontrol always="true">21</defaultcontrol>
-	
 	<include>dialogOpen</include>
-	
 	<coordinates>
 		<system>2</system>
 		<posx>440</posx>
 		<posy>150</posy>
 	</coordinates>
-	
 	<controls>
-
 		<control type="image" id="1">
 			<include>dialogWindow</include>
 			<width>400</width>
 			<height>410</height>
 		</control>
-
 		<control type="label" id="1">
 			<description>Heading Label</description>
 			<posx>34</posx>
@@ -24,7 +20,6 @@
 			<label>1007</label>
 			<include>dialogHeading</include>
 		</control>
-
 		<control type="label" id="1">
 			<description>dialog Heading</description>
 			<posx>60</posx>
@@ -36,7 +31,6 @@
 			<align>center</align>
 			<aligny>center</aligny>
 		</control>
-		
 		<control type="image" id="1">
 			<posx>34</posx>
 			<posy>75</posy>
@@ -44,7 +38,6 @@
 			<height>40</height>
 			<texture border="10,0,10,0">dialogs/textFieldFocus.png</texture>
 		</control>
-		
 		<control type="label" id="4">
 			<description>Edit Text</description>
 			<posx>39</posx>
@@ -56,8 +49,6 @@
 			<align>center</align>
 			<aligny>center</aligny>
 		</control>
-		
-
 		<control type="group">
 			<posx>90</posx>
 			<posy>135</posy>

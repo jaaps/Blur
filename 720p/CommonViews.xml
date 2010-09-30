@@ -122,7 +122,6 @@
 				<label>$INFO[$INFO[ListItem.FirstGenre]</label>
 			</control>
 		</control>
-		
 		<control type="grouplist">
 			<visible>Container.Content(albums) | Container.Content(songs)</visible>
 			<visible>!Container.OnNext + !Container.OnPrevious</visible>

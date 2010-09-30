@@ -1,37 +1,32 @@
+<?xml version="1.0"?>
 <window id="2000">
 	<defaultcontrol>3</defaultcontrol>
 	<include>dialogOpen</include>
-	
 	<coordinates>
 		<system>1</system>
 		<posx>315</posx>
 		<posy>60</posy>
 	</coordinates>
-	
 	<controls>
 		<control type="group">
 			<animation effect="fade" start="400" end="50" time="500" condition="Window.IsActive(103)">Conditional</animation>
-	
 			<control type="image">
 				<width>650</width>
 				<height>580</height>
 				<include>dialogWindow</include>
 			</control>
-	
 			<control type="label" id="1">
 				<description>heading label</description>
 				<width>582</width>
 				<scroll>true</scroll>
 				<include>dialogHeading</include>
 			</control>
-	
 			<control type="image">
 				<posx>19</posx>
 				<posy>75</posy>
 				<width>613</width>
 				<include>dialogSeparator</include>
 			</control>
-	
 			<control type="list" id="3">
 				<posx>19</posx>
 				<posy>76</posy>
@@ -42,7 +37,6 @@
 				<onup>3</onup>
 				<ondown>3</ondown>
 				<scrolltime>200</scrolltime>
-	
 				<itemlayout height="40">
 					<control type="image">
 						<width>613</width>
@@ -76,7 +70,6 @@
 					</control>
 				</focusedlayout>
 			</control>
-		
 			<control type="list" id="6">
 				<posx>19</posx>
 				<posy>76</posy>
@@ -112,7 +105,6 @@
 						<aspectratio align="left">stretch</aspectratio>
 						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
-	
 					<control type="label">
 						<posx>150</posx>
 						<posy>15</posy>
@@ -166,7 +158,6 @@
 						<aspectratio align="left">stretch</aspectratio>
 						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
-	
 					<control type="label">
 						<posx>150</posx>
 						<posy>15</posy>
@@ -201,7 +192,6 @@
 					</control>
 				</focusedlayout>
 			</control>
-		
 			<control type="button" id="5">
 				<description>manual button</description>
 				<posx>34</posx>

@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <window id="2004">
 	<defaultcontrol>61</defaultcontrol>
 	<include>dialogOpen</include>
@@ -6,15 +7,12 @@
 		<posx>350</posx>
 		<posy>170</posy>
 	</coordinates>
-	
 	<controls>
-
 		<control type="image" id="0">
 			<width>580</width>
 			<height>450</height>
 			<include>dialogWindow</include>
 		</control>
-		
 		<control type="label" id="1">
 			<description>Heading Label</description>
 			<posx>34</posx>
@@ -29,11 +27,9 @@
 			<height>1</height>
 			<texture>dialogSeparator.png</texture>
 		</control>
-		
 		<control type="group">
 			<posx>34</posx>
 			<posy>76</posy>
-	
 			<control type="textbox" id="5">
 				<description>textarea</description>
 				<width>490</width>
@@ -46,7 +42,6 @@
 				<pagecontrol>61</pagecontrol>
 				<include>textBox</include>
 			</control>
-	
 			<control type="scrollbar" id="61">
 				<posx>505</posx>
 				<posy>0</posy>
