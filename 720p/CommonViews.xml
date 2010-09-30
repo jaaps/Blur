@@ -541,7 +541,6 @@
 					<height>50</height>
 					<label>$INFO[ListItem.Episode]. $INFO[ListItem.Label]</label>
 					<textcolor>White</textcolor>
-					<animation effect="slide" start="0" end="30" time="250" tween="cubic" easing="inout">Focus</animation>
 					<scroll>false</scroll>
 					<font>list1</font>
 				</control>
@@ -632,7 +631,6 @@
 					<height>50</height>
 					<label>$INFO[ListItem.Episode]. $INFO[ListItem.Label]</label>
 					<textcolor>White</textcolor>
-					<animation effect="slide" start="0" end="30" time="250" tween="cubic" easing="inout">Focus</animation>
 					<scroll>false</scroll>
 					<font>list1</font>
 				</control>
