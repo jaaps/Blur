@@ -26,6 +26,10 @@
 				<description>heading label</description>
 				<width>567</width>
 				<label>1023</label>
+				<posx>30</posx>
+				<posy>24</posy>
+				<textcolor>Black</textcolor>
+				<font>title1</font>
 			</control>
 			<control type="image">
 				<posx>19</posx>
