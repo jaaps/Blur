@@ -6,7 +6,6 @@
 		<posx>490</posx>
 		<posy>5</posy>
 	</coordinates>
-	<include>fadeinout</include>
 	<controls>
 		<control type="image">
 			<width>300</width>
@@ -34,7 +33,6 @@
 			<posx>20r</posx>
 			<align>right</align>
 			<label>$INFO[Player.Volume]</label>
-			<include>fadeinout</include>
 			<include>notificationSide</include>
 		</control>
 	</controls>

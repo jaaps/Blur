@@ -26,7 +26,6 @@
 			<height>32</height>
 			<texture>dialogs/scrollLeftIndicator.png</texture>
 			<aspectratio>keep</aspectratio>
-			<include>fadeinout</include>
 		</control>
 		<control type="image">
 			<posx>419</posx>
@@ -35,7 +34,6 @@
 			<height>32</height>
 			<texture>dialogs/scrollRightIndicator.png</texture>
 			<aspectratio>keep</aspectratio>
-			<include>fadeinout</include>
 		</control>
 		<control type="label" id="12">
 			<description>Slider Value</description>

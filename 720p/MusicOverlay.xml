@@ -3,11 +3,6 @@
 	<defaultcontrol>2</defaultcontrol>
 	<controls>
 		<control type="group">
-			<include>MediaOverlayVisible</include>
-			<control type="group">
-				<include>MusicOverlayNowPlayingDims</include>
-				<include>MusicNowPlaying</include>
-			</control>
 		</control>
 	</controls>
 </window>
