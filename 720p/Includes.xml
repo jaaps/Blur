@@ -205,7 +205,21 @@
 		</control>
 		<control type="label">
 			<description>Second title</description>
-			<label>[UPPERCASE]$INFO[Container.SecondTitle][/UPPERCASE]</label>
+			<visible>!IsEmpty(Container.SecondTitle)</visible>
+			<label>[UPPERCASE]$INFO[Container.SecondTitle][/UPPERCASE] [COLOR=WhiteTrans]($INFO[Container.NumItems] items)[/COLOR]</label>
+			<posx>30</posx>
+			<posy>45</posy>
+			<width>1000</width>
+			<height>56</height>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>info1</font>
+			<textcolor>White</textcolor>
+		</control>
+		<control type="label">
+			<description>Second title</description>
+			<visible>IsEmpty(Container.SecondTitle) + [Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(55) | Control.IsVisible(56)] + !IsEmpty(Container.FirstTitle)</visible>
+			<label>[COLOR=WhiteTrans]($INFO[Container.NumItems] items)[/COLOR]</label>
 			<posx>30</posx>
 			<posy>45</posy>
 			<width>1000</width>
@@ -237,6 +251,34 @@
 			<font>title1</font>
 			<align>right</align>
 			<aligny>center</aligny>
+			<textcolor>White</textcolor>
+		</control>
+	</include>
+	<include name="HeaderVideos">
+		<control type="label">
+			<description>First title</description>
+			<visible>IsEmpty(Container.FirstTitle)</visible>
+			<label>[UPPERCASE]$LOCALIZE[3][/UPPERCASE]</label>
+			<posx>30</posx>
+			<posy>15</posy>
+			<width>1000</width>
+			<height>56</height>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>title1</font>
+			<textcolor>White</textcolor>
+		</control>
+		<control type="label">
+			<description>Second title</description>
+			<visible>IsEmpty(Container.SecondTitle) + [Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(55) | Control.IsVisible(56)] + IsEmpty(Container.FirstTitle)</visible>
+			<label>[COLOR=WhiteTrans]($INFO[Container.NumItems] items)[/COLOR]</label>
+			<posx>30</posx>
+			<posy>45</posy>
+			<width>1000</width>
+			<height>56</height>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>info1</font>
 			<textcolor>White</textcolor>
 		</control>
 	</include>

@@ -113,11 +113,11 @@
 					<onclick>xbmc.activatewindow(settings)</onclick>
 					<thumb>icons/icon_settings.png</thumb>
 				</item>
-				<item id="10">
-					<description>Refresh</description>
-					<label>$LOCALIZE[184]</label>
-					<thumb>icons/icon_settings.png</thumb>
-					<onclick>XBMC.ReloadSkin()</onclick>
+				<item id="9">
+					<description>Shutdown</description>
+					<label>Shutdown</label>
+					<onclick>SetFocus(111)</onclick>
+					<thumb>icons/icon_exit.png</thumb>
 				</item>
 				<item id="9">
 					<description>Plex Online Menu</description>
@@ -126,6 +126,70 @@
 					<onclick>Plex.ActivateWindow(1,plex://localhost/system/plexonline,return)</onclick>
 				</item>
 			</content>
+		</control>
+		<control type="group" id="33">
+			<posx>455</posx>
+			<posy>220</posy>
+			<visible allowhiddenfocus="true">ControlGroup(33).HasFocus</visible>
+			<include>dialogOpen</include>
+			<control type="image" id="1">
+				<description>background top image</description>
+				<posx>0</posx>
+				<posy>-30</posy>
+				<width>370</width>
+				<height>30</height>
+				<texture border="29,29,29,0">dialogs/contextmenu-top.png</texture>
+			</control>
+			<control type="image" id="1">
+				<description>background image</description>
+				<posx>-1</posx>
+				<posy>0</posy>
+				<width>371</width>
+				<height>300</height>
+				<texture border="29">dialogs/contextmenu-center.png</texture>
+			</control>
+			<control type="image" id="1">
+				<description>background bottom image</description>
+				<posx>-1</posx>
+				<posy>300</posy>
+				<width>371</width>
+				<height>30</height>
+				<texture border="45,0,45,0">dialogs/contextmenu-bottom.png</texture>
+			</control>
+			<control type="image" id="1">
+				<posx>18</posx>
+				<posy>0</posy>
+				<width>335</width>
+				<height>1</height>
+				<texture>dialogs/separator.png</texture>
+			</control>
+			<control type="button" id="111">
+				<description>Quit Button</description>
+				<label>Exit Plex</label>
+				<onclick>Plex.Shutdown()</onclick>
+				<posx>18</posx>
+				<posy>0</posy>
+				<width>335</width>
+				<include>contextMenuButton</include>
+			</control>
+			<control type="button" id="112">
+				<description>Sleep Button</description>
+				<label>Sleep</label>
+				<onclick>XBMC.SleepSystem()</onclick>
+				<posx>18</posx>
+				<posy>40</posy>
+				<width>335</width>
+				<include>contextMenuButton</include>
+			</control>
+			<control type="button" id="113">
+				<description>Shut Down Button</description>
+				<label>Shutdown</label>
+				<onclick>XBMC.ShutDownSystem()</onclick>
+				<posx>18</posx>
+				<posy>80</posy>
+				<width>335</width>
+				<include>contextMenuButton</include>
+			</control>
 		</control>
 	</controls>
 </window>
