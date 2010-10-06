@@ -1,11 +1,6 @@
 <?xml version="1.0"?>
 <fonts>
-	<fontset id="default" unicode="true">
-		<font>
-			<name>Large</name>
-			<filename>MuseoSans_500.ttf</filename>
-			<size>36</size>
-		</font>
+	<fontset id="Light" unicode="true">
 		<font>
 			<name>title1</name>
 			<filename>Segan-Light.ttf</filename>
@@ -14,12 +9,12 @@
 		<font>
 			<name>HomeMenuItem</name>
 			<filename>Segan-Light.ttf</filename>
-			<size>40</size>
+			<size>42</size>
 		</font>
 		<font>
 			<name>HomeMenuItemNoFocus</name>
 			<filename>Segan-Light.ttf</filename>
-			<size>23</size>
+			<size>36</size>
 		</font>
 		<font>
 			<name>info1</name>
@@ -72,6 +67,215 @@
 			<name>font13</name>
 			<filename>Arial.ttf</filename>
 			<size>14</size>
+		</font>
+		
+	</fontset>
+	<fontset id="LightBig" unicode="true">
+		<font>
+			<name>title1</name>
+			<filename>Segan-Light.ttf</filename>
+			<size>40</size>
+		</font>
+		<font>
+			<name>HomeMenuItem</name>
+			<filename>Segan-Light.ttf</filename>
+			<size>52</size>
+		</font>
+		<font>
+			<name>HomeMenuItemNoFocus</name>
+			<filename>Segan-Light.ttf</filename>
+			<size>46</size>
+		</font>
+		<font>
+			<name>info1</name>
+			<filename>Segan-Light.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>list2</name>
+			<filename>Segan-Light.ttf</filename>
+			<size>27</size>
+		</font>
+		<font>
+			<name>list1</name>
+			<filename>Segan-Light.ttf</filename>
+			<size>29</size>
+		</font>
+		<font>
+			<name>album1</name>
+			<filename>Segan-Light.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>list1active</name>
+			<filename>Segan-Light.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>plot1</name>
+			<filename>Segan-Light.ttf</filename>
+			<size>32</size>
+		</font>
+		<font>
+			<name>info2</name>
+			<filename>HelveticaNeue</filename>
+			<variant>Light</variant>
+			<size>24</size>
+		</font>
+		<font>
+			<name>Large</name>
+			<filename>Arial.ttf</filename>
+			<size>46</size>
+		</font>
+		<font>
+			<name>Small</name>
+			<filename>Arial.ttf</filename>
+			<size>24</size>
+		</font>
+		<!-- Required for system -->
+		<font>
+			<name>font13</name>
+			<filename>Arial.ttf</filename>
+			<size>24</size>
+		</font>
+		
+	</fontset>
+	<fontset id="default" unicode="true">
+		<font>
+			<name>title1</name>
+			<filename>GraublauWebBold.ttf</filename>
+			<size>26</size>
+		</font>
+		<font>
+			<name>HomeMenuItem</name>
+			<filename>GraublauWebBold.ttf</filename>
+			<size>42</size>
+		</font>
+		<font>
+			<name>HomeMenuItemNoFocus</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>info1</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>20</size>
+		</font>
+		<font>
+			<name>list2</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>17</size>
+		</font>
+		<font>
+			<name>list1</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>19</size>
+		</font>
+		<font>
+			<name>album1</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>14</size>
+		</font>
+		<font>
+			<name>list1active</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>20</size>
+		</font>
+		<font>
+			<name>plot1</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>info2</name>
+			<filename>HelveticaNeue</filename>
+			<variant>Light</variant>
+			<size>14</size>
+		</font>
+		<font>
+			<name>Large</name>
+			<filename>Arial.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>Small</name>
+			<filename>Arial.ttf</filename>
+			<size>14</size>
+		</font>
+		<!-- Required for system -->
+		<font>
+			<name>font13</name>
+			<filename>Arial.ttf</filename>
+			<size>14</size>
+		</font>
+	</fontset>
+	<fontset id="defaultbig" unicode="true">
+		<font>
+			<name>title1</name>
+			<filename>GraublauWebBold.ttf</filename>
+			<size>31</size>
+		</font>
+		<font>
+			<name>HomeMenuItem</name>
+			<filename>GraublauWebBold.ttf</filename>
+			<size>42</size>
+		</font>
+		<font>
+			<name>HomeMenuItemNoFocus</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>info1</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>23</size>
+		</font>
+		<font>
+			<name>list2</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>list1</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>22</size>
+		</font>
+		<font>
+			<name>album1</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>list1active</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>plot1</name>
+			<filename>GraublauWeb.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>info2</name>
+			<filename>HelveticaNeue</filename>
+			<variant>Light</variant>
+			<size>24</size>
+		</font>
+		<font>
+			<name>Large</name>
+			<filename>Arial.ttf</filename>
+			<size>46</size>
+		</font>
+		<font>
+			<name>Small</name>
+			<filename>Arial.ttf</filename>
+			<size>24</size>
+		</font>
+		<!-- Required for system -->
+		<font>
+			<name>font13</name>
+			<filename>Arial.ttf</filename>
+			<size>24</size>
 		</font>
 	</fontset>
 </fonts>

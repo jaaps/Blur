@@ -84,7 +84,7 @@
 			<usecontrolcoords>false</usecontrolcoords>
 			<control type="label">
 				<width>352</width>
-				<height>26</height>
+				<height>36</height>
 				<font>title1</font>
 				<align>left</align>
 				<aligny>top</aligny>
@@ -136,7 +136,7 @@
 			<usecontrolcoords>false</usecontrolcoords>
 			<control type="label">
 				<width>352</width>
-				<height>26</height>
+				<height>36</height>
 				<font>title1</font>
 				<align>left</align>
 				<aligny>top</aligny>
@@ -145,7 +145,7 @@
 			</control>
 			<control type="label">
 				<width>352</width>
-				<height>26</height>
+				<height>36</height>
 				<font>title1</font>
 				<align>left</align>
 				<aligny>top</aligny>
@@ -213,7 +213,7 @@
 			<usecontrolcoords>false</usecontrolcoords>
 			<control type="label">
 				<width>352</width>
-				<height>26</height>
+				<height>36</height>
 				<font>title1</font>
 				<align>left</align>
 				<aligny>top</aligny>
@@ -265,7 +265,7 @@
 			<usecontrolcoords>false</usecontrolcoords>
 			<control type="label">
 				<width>352</width>
-				<height>26</height>
+				<height>36</height>
 				<font>title1</font>
 				<align>left</align>
 				<aligny>top</aligny>
@@ -319,7 +319,7 @@
 			<usecontrolcoords>false</usecontrolcoords>
 			<control type="label">
 				<width>352</width>
-				<height>30</height>
+				<height>36</height>
 				<font>title1</font>
 				<align>left</align>
 				<aligny>top</aligny>
@@ -424,7 +424,7 @@
 				<posy>670</posy>
 				<posx>0</posx>
 				<width>1280</width>
-				<height>30</height>
+				<height>36</height>
 				<font>title1</font>
 				<align>center</align>
 				<aligny>top</aligny>
