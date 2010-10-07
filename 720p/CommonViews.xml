@@ -36,11 +36,11 @@
 				<posy>3</posy>
 				<posx>5</posx>
 				<visible>!IsEmpty(ListItem.Rating)</visible>
-				<width>123</width>
+				<width>90</width>
 				<height>26</height>
 				<info>ListItem.StarRating</info>
-				<colordiffuse>FFFFFFFF</colordiffuse>
-				<align>left</align>
+				<colordiffuse>WhiteTrans</colordiffuse>
+				<aspectratio aligny="center" align="left">keep</aspectratio>
 			</control>
 			<control type="textbox">
 				<description>Plot/Details</description>
@@ -95,11 +95,11 @@
 				<posy>3</posy>
 				<posx>5</posx>
 				<visible>!IsEmpty(ListItem.Rating)</visible>
-				<width>123</width>
+				<width>90</width>
 				<height>26</height>
 				<info>ListItem.StarRating</info>
-				<colordiffuse>FFFFFFFF</colordiffuse>
-				<align>left</align>
+				<colordiffuse>WhiteTrans</colordiffuse>
+				<aspectratio aligny="center" align="left">keep</aspectratio>
 			</control>
 			<control type="textbox">
 				<description>Plot/Details</description>
@@ -156,11 +156,11 @@
 				<posy>3</posy>
 				<posx>5</posx>
 				<visible>!IsEmpty(ListItem.Rating)</visible>
-				<width>123</width>
+				<width>90</width>
 				<height>26</height>
 				<info>ListItem.StarRating</info>
-				<colordiffuse>FFFFFFFF</colordiffuse>
-				<align>left</align>
+				<colordiffuse>WhiteTrans</colordiffuse>
+				<aspectratio aligny="center" align="left">keep</aspectratio>
 			</control>
 			<control type="label">
 				<posx>102</posx>
@@ -224,11 +224,11 @@
 				<posy>3</posy>
 				<posx>5</posx>
 				<visible>!IsEmpty(ListItem.Rating)</visible>
-				<width>123</width>
+				<width>90</width>
 				<height>26</height>
 				<info>ListItem.StarRating</info>
-				<colordiffuse>FFFFFFFF</colordiffuse>
-				<align>left</align>
+				<colordiffuse>WhiteTrans</colordiffuse>
+				<aspectratio aligny="center" align="left">keep</aspectratio>
 			</control>
 			<control type="textbox">
 				<description>Plot/Details</description>
@@ -276,11 +276,11 @@
 				<posy>3</posy>
 				<posx>5</posx>
 				<visible>!IsEmpty(ListItem.Rating)</visible>
-				<width>123</width>
+				<width>90</width>
 				<height>26</height>
 				<info>ListItem.StarRating</info>
-				<colordiffuse>FFFFFFFF</colordiffuse>
-				<align>left</align>
+				<colordiffuse>WhiteTrans</colordiffuse>
+				<aspectratio aligny="center" align="left">keep</aspectratio>
 			</control>
 			<control type="label">
 				<posx>102</posx>
@@ -330,11 +330,11 @@
 				<posy>3</posy>
 				<posx>5</posx>
 				<visible>!IsEmpty(ListItem.Rating)</visible>
-				<width>123</width>
+				<width>90</width>
 				<height>26</height>
 				<info>ListItem.StarRating</info>
-				<colordiffuse>FFFFFFFF</colordiffuse>
-				<align>left</align>
+				<colordiffuse>WhiteTrans</colordiffuse>
+				<aspectratio aligny="center" align="left">keep</aspectratio>
 			</control>
 			<control type="label">
 				<posx>102</posx>
@@ -383,11 +383,11 @@
 				<posy>3</posy>
 				<posx>5</posx>
 				<visible>!IsEmpty(ListItem.Rating)</visible>
-				<width>123</width>
+				<width>90</width>
 				<height>26</height>
 				<info>ListItem.StarRating</info>
-				<colordiffuse>FFFFFFFF</colordiffuse>
-				<align>left</align>
+				<colordiffuse>WhiteTrans</colordiffuse>
+				<aspectratio aligny="center" align="left">keep</aspectratio>
 			</control>
 			<control type="textbox">
 				<description>Plot/Details</description>
@@ -675,8 +675,7 @@
 					<aspectratio scalediffuse="false">fit</aspectratio>
 					<fadetime>200</fadetime>
 					<animation type="Focus" reversible="false">
-						<effect type="zoom" start="10" end="100" time="200" center="auto"/>
-						<effect type="fade" start="30" end="100" time="500"/>
+						<effect type="zoom" start="40" end="100" time="120" center="auto"/>
 					</animation>
 				</control>
 				<control type="image">
@@ -690,8 +689,7 @@
 					<texture>BlackTransparent.png</texture>
 					<fadetime>200</fadetime>
 					<animation type="Focus" reversible="false">
-						<effect type="zoom" start="10" end="100" time="200" center="auto"/>
-						<effect type="fade" start="30" end="100" time="500"/>
+						<effect type="zoom" start="40" end="100" time="120" center="auto"/>
 					</animation>
 				</control>
 			</focusedlayout>

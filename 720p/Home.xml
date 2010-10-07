@@ -14,7 +14,7 @@
 		<control type="list" id="200">
 			<description>Home Fixedlist</description>
 			<posx>130</posx>
-			<posy>200</posy>
+			<posy>170</posy>
 			<width>700</width>
 			<height>720</height>
 			<visible>-</visible>
@@ -24,8 +24,8 @@
 			<onleft>200</onleft>
 			<focusposition>2</focusposition>
 			<scrolltime>200</scrolltime>
-			<animation effect="fade" start="50" end="100" time="300">Focus</animation>
-			<animation effect="fade" start="100" end="50" time="300">UnFocus</animation>
+			<animation effect="fade" start="40" end="100" time="300">Focus</animation>
+			<animation effect="fade" start="100" end="40" time="300">UnFocus</animation>
 			<itemlayout height="90">
 				<control type="label">
 					<posx>400</posx>
@@ -75,10 +75,12 @@
 			</content>
 		</control>
 		<control type="group" id="299">
+			<animation effect="fade" start="60" end="100" time="300">Focus</animation>
+			<animation effect="fade" start="100" end="60" time="300">UnFocus</animation>
 			<control type="list" id="300">
 				<description>Home Fixedlist</description>
 				<posx>590</posx>
-				<posy>240</posy>
+				<posy>210</posy>
 				<width>700</width>
 				<height>300</height>
 				<onup>300</onup>
@@ -110,8 +112,7 @@
 						<height>50</height>
 						<texture>button2.png</texture>
 						<aspectratio>keep</aspectratio>
-						<animation effect="fade" start="0" end="100" time="200" tween="cubic" easing="inout" delay="10">Focus</animation>
-						<animation effect="fade" start="100" end="0" time="200" tween="cubic" easing="inout" delay="10">UnFocus</animation>
+						<visible>Container(300).HasFocus</visible>
 					</control>
 					<control type="label">
 						<posx>20</posx>
@@ -130,7 +131,7 @@
 			<control type="list" id="400">
 				<description>Home Fixedlist</description>
 				<posx>590</posx>
-				<posy>240</posy>
+				<posy>210</posy>
 				<width>700</width>
 				<height>300</height>
 				<onup>400</onup>
@@ -162,8 +163,6 @@
 						<height>50</height>
 						<texture>button2.png</texture>
 						<aspectratio>keep</aspectratio>
-						<animation effect="fade" start="0" end="100" time="200" tween="cubic" easing="inout" delay="10">Focus</animation>
-						<animation effect="fade" start="100" end="0" time="200" tween="cubic" easing="inout" delay="10">UnFocus</animation>
 					</control>
 					<control type="label">
 						<posx>20</posx>
@@ -207,7 +206,7 @@
 			<control type="list" id="500">
 				<description>Home Fixedlist</description>
 				<posx>590</posx>
-				<posy>240</posy>
+				<posy>210</posy>
 				<width>700</width>
 				<height>400</height>
 				<onup>400</onup>
@@ -239,8 +238,6 @@
 						<height>50</height>
 						<texture>button2.png</texture>
 						<aspectratio>keep</aspectratio>
-						<animation effect="fade" start="0" end="100" time="200" tween="cubic" easing="inout" delay="10">Focus</animation>
-						<animation effect="fade" start="100" end="0" time="200" tween="cubic" easing="inout" delay="10">UnFocus</animation>
 					</control>
 					<control type="label">
 						<posx>20</posx>
@@ -299,7 +296,7 @@
 			<control type="list" id="600">
 				<description>Home Fixedlist</description>
 				<posx>590</posx>
-				<posy>240</posy>
+				<posy>210</posy>
 				<width>700</width>
 				<height>300</height>
 				<onup>400</onup>
@@ -331,8 +328,6 @@
 						<height>50</height>
 						<texture>button2.png</texture>
 						<aspectratio>keep</aspectratio>
-						<animation effect="fade" start="0" end="100" time="200" tween="cubic" easing="inout" delay="10">Focus</animation>
-						<animation effect="fade" start="100" end="0" time="200" tween="cubic" easing="inout" delay="10">UnFocus</animation>
 					</control>
 					<control type="label">
 						<posx>20</posx>
