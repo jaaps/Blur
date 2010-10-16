@@ -38,8 +38,8 @@
 				<font>info1</font>
 				<align>left</align>
 				<aligny>top</aligny>
-				<textcolor>White</textcolor>
-				<label>[UPPERCASE]SEASON [COLOR=WhiteTrans]$INFO[ListItem.Season][/COLOR] EPISODE [COLOR=WhiteTrans]$INFO[ListItem.Episode][/COLOR][/UPPERCASE]</label>
+				<textcolor>WhiteTrans</textcolor>
+				<label>[UPPERCASE]SEASON [COLOR=White]$INFO[ListItem.Season][/COLOR] EPISODE [COLOR=White]$INFO[ListItem.Episode][/COLOR][/UPPERCASE]</label>
 			</control>
 			<control type="image">
 				<posy>3</posy>
