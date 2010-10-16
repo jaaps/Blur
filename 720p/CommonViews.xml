@@ -565,7 +565,7 @@
 						<height>50</height>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
-						<textcolor>WhiteTrans</textcolor>
+						<textcolor>White</textcolor>
 						<scroll>false</scroll>
 						<font>list1</font>
 					</control>
@@ -577,7 +577,7 @@
 						<aligny>center</aligny>
 						<height>50</height>
 						<label>$INFO[ListItem.Episode]. $INFO[ListItem.Label]</label>
-						<textcolor>WhiteTrans</textcolor>
+						<textcolor>White</textcolor>
 						<scroll>false</scroll>
 						<font>list1</font>
 					</control>
@@ -599,7 +599,7 @@
 						<height>50</height>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
-						<textcolor>WhiteTrans</textcolor>
+						<textcolor>White</textcolor>
 						<scroll>false</scroll>
 						<font>list1</font>
 					</control>
@@ -718,7 +718,7 @@
 						<aligny>center</aligny>
 						<height>50</height>
 						<label>$INFO[ListItem.Episode]. $INFO[ListItem.Label]</label>
-						<textcolor>WhiteTrans</textcolor>
+						<textcolor>White</textcolor>
 						<scroll>false</scroll>
 						<font>list1</font>
 					</control>
@@ -728,7 +728,7 @@
 						<width>24</width>
 						<height>24</height>
 						<texture>$INFO[ListItem.Overlay]</texture>
-						<colordiffuse>WhiteTrans</colordiffuse>
+						<colordiffuse>White</colordiffuse>
 					</control>
 				</control>
 				<control type="group">
@@ -740,7 +740,7 @@
 						<height>50</height>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
-						<textcolor>WhiteTrans</textcolor>
+						<textcolor>White</textcolor>
 						<scroll>false</scroll>
 						<font>list1</font>
 					</control>
