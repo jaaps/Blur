@@ -8,7 +8,6 @@
  - MediaStream by Team Razorfish and Team Plex
  - Empty by WIR3D
  - Lithium by RedDragon
- - Sweet Candy iPhone HD by AlcoolGeek
  - Sounds from an Aeon Mod.. author unknown
  - Boxee by Team Boxee
 
@@ -26,17 +25,3 @@
  found in Mac OS X
 ------------------------------------------------
 
-
-
-------------------------------------------------
- To use Icons for Plex Media Server Entries:
-------------------------------------------------
- Put a png image with the name of the PMS
- Entry in media/icons/
-
- For example:
- PMS Entry name: My Movies
- Icon: media/icons/My Movies.png
-
-------------------------------------------------
-------------------------------------------------
