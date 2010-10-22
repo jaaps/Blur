@@ -259,6 +259,17 @@
 				<textcolor>WhiteTrans</textcolor>
 				<label>$INFO[ListItem.Year] - $INFO[ListItem.FirstGenre]</label>
 			</control>
+			<control type="label">
+				<posx>102</posx>
+				<posy>0</posy>
+				<width>350</width>
+				<height>30</height>
+				<font>info1</font>
+				<align>left</align>
+				<aligny>top</aligny>
+				<textcolor>WhiteTrans</textcolor>
+				<label>$INFO[ListItem.Property(UnWatchedEpisodes)] uwatched episodes</label>
+			</control>
 		</control>
 		<control type="grouplist">
 			<visible>Container.Content(seasons)</visible>
@@ -295,23 +306,12 @@
 				<posx>102</posx>
 				<posy>0</posy>
 				<width>350</width>
-				<height>20</height>
-				<font>info1</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<textcolor>WhiteTrans</textcolor>
-				<label>$INFO[ListItem.Property(WatchedEpisodes)] watched</label>
-			</control>
-			<control type="label">
-				<posx>102</posx>
-				<posy>0</posy>
-				<width>350</width>
 				<height>30</height>
 				<font>info1</font>
 				<align>left</align>
 				<aligny>top</aligny>
 				<textcolor>WhiteTrans</textcolor>
-				<label>$INFO[ListItem.Property(UnWatchedEpisodes)] not watched</label>
+				<label>$INFO[ListItem.Property(UnWatchedEpisodes)] uwatched episodes</label>
 			</control>
 		</control>
 		<control type="grouplist">
