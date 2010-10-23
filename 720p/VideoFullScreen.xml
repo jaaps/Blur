@@ -19,7 +19,7 @@
 				<width>1260</width>
 				<label>-</label>
 				<align>left</align>
-				<textcolor>Black</textcolor>
+				<textcolor>WhiteTrans</textcolor>
 				<font>info1</font>
 			</control>
 			<control type="label" id="11">
@@ -30,7 +30,7 @@
 				<label>-</label>
 				<align>left</align>
 				<font>info1</font>
-				<textcolor>Black</textcolor>
+				<textcolor>WhiteTrans</textcolor>
 			</control>
 			<control type="label" id="12">
 				<description>row 3 label</description>
@@ -40,7 +40,7 @@
 				<height>60</height>
 				<label>-</label>
 				<align>left</align>
-				<textcolor>Black</textcolor>
+				<textcolor>WhiteTrans</textcolor>
 				<font>info1</font>
 			</control>
 		</control>

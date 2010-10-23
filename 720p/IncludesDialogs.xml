@@ -17,7 +17,7 @@
 		<font>info1</font>
 		<height>40</height>
 		<aligny>center</aligny>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<animation effect="slide" start="0" end="-45" time="100" tween="Cubic" condition="Window.IsActive(107)">Conditional</animation>
 	</include>
 	<include name="notificationSide">
@@ -43,7 +43,7 @@
 	</include>
 	<include name="contextMenuButton">
 		<font>info1</font>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<texturenofocus border="1">dialogs/list-nofocus.png</texturenofocus>
 		<texturefocus border="1">dialogs/list-focus.png</texturefocus>
@@ -61,7 +61,7 @@
 		<align>left</align>
 		<aligny>-</aligny>
 		<font>info1</font>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 	</include>
 	<include name="dialogHeading">
 		<posx>34</posx>
@@ -70,7 +70,7 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<height>30</height>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<scroll>false</scroll>
 	</include>
 	<include name="dialogLine">
@@ -79,7 +79,7 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<font>info1</font>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<scroll>false</scroll>
 	</include>
 	<include name="dialogSubHeading">
@@ -87,7 +87,7 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>list1</font>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 	</include>
 	<include name="dialogButton">
 		<width>120</width>
@@ -98,7 +98,7 @@
 		<textoffsety>6</textoffsety>
 		<texturenofocus border="20">dialogs/buttonD.png</texturenofocus>
 		<texturefocus border="20">dialogs/buttonD-focus.png</texturefocus>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
@@ -111,12 +111,12 @@
 		<textoffsety>6</textoffsety>
 		<texturenofocus border="20">dialogs/buttonD.png</texturenofocus>
 		<texturefocus border="20,16,20,16">dialogs/buttonD-focus.png</texturefocus>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="dialogListButton">
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<textoffsetx>15</textoffsetx>
 		<focusedcolor>White</focusedcolor>
 		<font>info1</font>
@@ -128,7 +128,7 @@
 		<texturenofocus border="3">dialogs/list-nofocus.png</texturenofocus>
 	</include>
 	<include name="dialogListLabel">
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<font>info1</font>
 		<textoffsetx>15</textoffsetx>
 		<textoffsety>-2</textoffsety>
@@ -143,13 +143,13 @@
 		<textoffsety>5</textoffsety>
 		<texturenofocus border="10,0,10,0">dialogs/textField.png</texturenofocus>
 		<texturefocus border="10,0,10,0">dialogs/textFieldFocus.png</texturefocus>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<shadowcolor>fff4f4f4</shadowcolor>
-		<focusedcolor>Black</focusedcolor>
+		<focusedcolor>WhiteTrans</focusedcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="dialogRadio">
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<font>info1</font>
 		<texturefocus border="3">dialogs/list-focus.png</texturefocus>
@@ -160,7 +160,7 @@
 		<radiowidth>48</radiowidth>
 	</include>
 	<include name="dialogSpin">
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<textoffsetx>15</textoffsetx>
 		<focusedcolor>White</focusedcolor>
 		<font>info1</font>
@@ -186,7 +186,7 @@
 		<textureslidernibfocus>dialogs/sliderNib.png</textureslidernibfocus>
 		<font>info1</font>
 		<height>40</height>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<textoffsetx>15</textoffsetx>
 		<textoffsety>15</textoffsety>
@@ -209,7 +209,7 @@
 		<font>info1</font>
 		<texturenofocus border="8,3,8,3">dialogs/buttonKB.png</texturenofocus>
 		<texturefocus border="8,3,8,3">dialogs/buttonKB-focus.png</texturefocus>
-		<textcolor>Black</textcolor>
+		<textcolor>WhiteTrans</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<width>48</width>
 		<height>48</height>

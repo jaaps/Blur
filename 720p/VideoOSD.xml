@@ -17,7 +17,7 @@
 				<width>1320</width>
 				<align>right</align>
 				<label>$INFO[Player.Time]</label>
-				<textcolor>Black</textcolor>
+				<textcolor>WhiteTrans</textcolor>
 			</control>
 			<control type="label" id="1">
 				<posx>970</posx>
@@ -25,7 +25,7 @@
 				<width>1320</width>
 				<align>left</align>
 				<label>$INFO[Player.Duration]</label>
-				<textcolor>Black</textcolor>
+				<textcolor>WhiteTrans</textcolor>
 			</control>
 		</control>
 		<control type="group" id="200">

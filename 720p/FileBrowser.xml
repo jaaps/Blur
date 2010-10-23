@@ -28,7 +28,7 @@
 				<label>1023</label>
 				<posx>30</posx>
 				<posy>24</posy>
-				<textcolor>Black</textcolor>
+				<textcolor>WhiteTrans</textcolor>
 				<font>title1</font>
 			</control>
 			<control type="image">
@@ -59,7 +59,7 @@
 					<align>left</align>
 					<font>list1</font>
 					<haspath>true</haspath>
-					<textcolor>Black</textcolor>
+					<textcolor>WhiteTrans</textcolor>
 				</control>
 				<control type="list" id="450">
 					<posx>19</posx>
@@ -92,7 +92,7 @@
 							<font>list1</font>
 							<aligny>center</aligny>
 							<info>ListItem.Label</info>
-							<textcolor>Black</textcolor>
+							<textcolor>WhiteTrans</textcolor>
 						</control>
 					</itemlayout>
 					<focusedlayout height="40">
