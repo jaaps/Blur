@@ -143,9 +143,9 @@
 		<textoffsety>5</textoffsety>
 		<texturenofocus border="10,0,10,0">dialogs/textField.png</texturenofocus>
 		<texturefocus border="10,0,10,0">dialogs/textFieldFocus.png</texturefocus>
-		<textcolor>White</textcolor>
-		<shadowcolor>fff4f4f4</shadowcolor>
-		<focusedcolor>White</focusedcolor>
+		<textcolor>Black</textcolor>
+		<shadowcolor>-</shadowcolor>
+		<focusedcolor>Black</focusedcolor>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="dialogRadio">
@@ -199,7 +199,7 @@
 	</include>
 	<include name="keyboardButton">
 		<font>info1</font>
-		<texturenofocus border="8,3,8,3">dialogs/buttonKB.png</texturenofocus>
+		<texturenofocus border="8,3,8,3">-</texturenofocus>
 		<texturefocus border="8,3,8,3">dialogs/buttonKB-focus.png</texturefocus>
 		<textcolor>WhiteTrans</textcolor>
 		<focusedcolor>White</focusedcolor>

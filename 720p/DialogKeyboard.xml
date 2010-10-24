@@ -42,24 +42,9 @@
 				<height>38</height>
 				<font>font1</font>
 				<ondown>52</ondown>
-				<textcolor>WhiteTrans</textcolor>
+				<textcolor>Black</textcolor>
 				<align>center</align>
 				<aligny>center</aligny>
-			</control>
-			<control type="button" id="8">
-				<description>BSP button</description>
-				<posx>534</posx>
-				<posy>80</posy>
-				<width>38</width>
-				<height>30</height>
-				<texturenofocus border="0">dialogs/backspace.png</texturenofocus>
-				<texturefocus border="0">dialogs/backspace-focus.png</texturefocus>
-				<aspectratio align="right">keep</aspectratio>
-				<onleft>310</onleft>
-				<onright>310</onright>
-				<onup>32</onup>
-				<ondown>52</ondown>
-				<visible>!Skin.HasSetting(keyboardButtons)</visible>
 			</control>
 			<control type="group">
 				<posx>34</posx>
