@@ -69,7 +69,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>WhiteTrans</textcolor>
-				<label>$INFO[ListItem.date] - $INFO[ListItem.Duration] min</label>
+				<label>$INFO[ListItem.date] - $INFO[ListItem.Duration]</label>
 			</control>
 			<control type="image">
 				<width>52</width>
@@ -416,7 +416,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>WhiteTrans</textcolor>
-				<label>$INFO[ListItem.Year] - $INFO[ListItem.Duration] min - $INFO[ListItem.FirstGenre] </label>
+				<label>$INFO[ListItem.Year] - $INFO[ListItem.Duration] - $INFO[ListItem.FirstGenre] </label>
 			</control>
 			<control type="image">
 				<width>52</width>
