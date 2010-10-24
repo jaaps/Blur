@@ -235,6 +235,17 @@
 					<onclick>Skin.ToggleSetting(Flags)</onclick>
 					<selected>Skin.HasSetting(Flags)</selected>
 				</control>
+				<control type="radiobutton" id="2021">
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<label>Show "Finished at" on OSD</label>
+					<onclick>Skin.ToggleSetting(FinishTime)</onclick>
+					<selected>Skin.HasSetting(FinishTime)</selected>
+				</control>
 			</control>
 		</control>
 	</controls>
