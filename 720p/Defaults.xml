@@ -139,36 +139,21 @@
 		<midtexture border="14,0,14,0">OSDProgressMid.png</midtexture>
 		<overlaytexture>-</overlaytexture>
 	</default>
-	<default type="slider">
-		<description>Seek Slider</description>
-		<visible>true</visible>
-		<width>474</width>
-		<height>35</height>
-		<texturesliderbar>SeekSliderBack.png</texturesliderbar>
-		<textureslidernib>ScrollBarNibFO.png</textureslidernib>
-		<textureslidernibfocus>ScrollBarNibFO.png</textureslidernibfocus>
-		<aligny>center</aligny>
-		<font>list2</font>
-	</default>
 	<default type="sliderex">
-		<description>Default Slider</description>
-		<posx>530</posx>
-		<posy>150</posy>
-		<height>38</height>
-		<width>300</width>
-		<texturenofocus>-</texturenofocus>
-		<sliderwidth>100</sliderwidth>
-		<sliderheight>24</sliderheight>
-		<texturesliderbar>SliderBackground.png</texturesliderbar>
-		<textureslidernib>SliderNibNF.png</textureslidernib>
-		<textureslidernibfocus>SliderNibFO.png</textureslidernibfocus>
-		<font>list2</font>
+		<sliderwidth>105</sliderwidth>
+		<sliderheight>32</sliderheight>
+		<texturesliderbar>osd/osd_sliderback.png</texturesliderbar>
+		<textureslidernib>osd/osd_slidernub.png</textureslidernib>
+		<textureslidernibfocus>osd/osd_slidernubf.png</textureslidernibfocus>
+		<texturefocus border="3">dialogs/list-focus.png</texturefocus>
+		<texturenofocus border="3">dialogs/list-nofocus.png</texturenofocus>
+		<font>info1</font>
+		<height>40</height>
 		<textcolor>WhiteTrans</textcolor>
 		<focusedcolor>White</focusedcolor>
-		<selectedcolor>White</selectedcolor>
-		<disabledcolor>Red</disabledcolor>
-		<textoffsetx>12</textoffsetx>
-		<aligny>center</aligny>
+		<textoffsetx>15</textoffsetx>
+		<textoffsety>15</textoffsety>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="scrollbar">
 		<description>Scroll Bar</description>

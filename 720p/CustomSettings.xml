@@ -130,7 +130,6 @@
 				<control type="radiobutton" id="2016">
 					<visible>!Skin.String(Custom_Background)</visible>
 					<height>50</height>
-					<width>962</width>
 					<height>50</height>
 					<width>710</width>
 					<textoffsetx>20</textoffsetx>

@@ -40,7 +40,13 @@
 				<ondown>5</ondown>
 			</control>
 			<control type="sliderex" id="10">
+				<description>default slider</description>
 				<include>dialogSlider</include>
+				<sliderwidth>105</sliderwidth>
+				<sliderheight>32</sliderheight>
+				<texturesliderbar>osd/osd_sliderback.png</texturesliderbar>
+				<textureslidernib>osd/osd_slidernub.png</textureslidernib>
+				<textureslidernibfocus>osd/osd_slidernubf.png</textureslidernibfocus>
 			</control>
 			<control type="button" id="7">
 				<include>dialogListButton</include>

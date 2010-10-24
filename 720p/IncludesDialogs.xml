@@ -176,9 +176,6 @@
 	<include name="dialogSlider">
 		<texturefocus border="3">dialogs/list-focus.png</texturefocus>
 		<texturenofocus border="3">dialogs/list-nofocus.png</texturenofocus>
-		<texturesliderbar>dialogs/sliderBackground.png</texturesliderbar>
-		<textureslidernib>dialogs/sliderNib.png</textureslidernib>
-		<textureslidernibfocus>dialogs/sliderNib.png</textureslidernibfocus>
 		<font>info1</font>
 		<height>40</height>
 		<textcolor>WhiteTrans</textcolor>

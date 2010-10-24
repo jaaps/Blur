@@ -282,7 +282,6 @@
 			<textcolor>White</textcolor>
 		</control>
 	</include>
-	
 	<include name="HeaderHome">
 		<control type="label">
 			<description>First title</description>
@@ -296,7 +295,6 @@
 			<font>title1</font>
 			<textcolor>White</textcolor>
 		</control>
-
 	</include>
 	<include name="SideMenuBackground">
 		<control type="image">
