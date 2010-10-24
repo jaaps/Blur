@@ -45,6 +45,17 @@
 				<colordiffuse>d0FFFFFF</colordiffuse>
 				<label>$INFO[VideoPlayer.Duration]</label>
 			</control>
+			<control type="label">
+				<posx>0</posx>
+				<posy>60</posy>
+				<width>1280</width>
+				<height>25</height>
+				<font>list2</font>
+				<align>center</align>
+				<colordiffuse>d0FFFFFF</colordiffuse>
+				<label>finished at $INFO[Player.FinishTime]</label>
+				<visible>Skin.HasSetting(FinishTime)</visible>
+			</control>
 		</control>
 	</controls>
 </window>
