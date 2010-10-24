@@ -46,11 +46,11 @@
 					<posx>15</posx>
 					<width>543</width>
 					<height>35</height>
-					<font>mediumLow</font>
+					<font>info1</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>Color4</textcolor>
-					<selectedcolor>Color2</selectedcolor>
+					<textcolor>White</textcolor>
+					<selectedcolor>White</selectedcolor>
 					<info>ListItem.Label</info>
 				</control>
 			</itemlayout>
@@ -71,27 +71,14 @@
 					<posx>15</posx>
 					<width>543</width>
 					<height>35</height>
-					<font>mediumLow</font>
+					<font>info1</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>Color1</textcolor>
-					<selectedcolor>Color2</selectedcolor>
+					<textcolor>White</textcolor>
+					<selectedcolor>White</selectedcolor>
 					<info>ListItem.Label</info>
 				</control>
 			</focusedlayout>
-		</control>
-		<control type="label">
-			<posx>34</posx>
-			<posy>405</posy>
-			<width>534</width>
-			<height>30</height>
-			<align>center</align>
-			<aligny>center</aligny>
-			<font>medium</font>
-			<label>$INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages]</label>
-			<visible>!Control.IsVisible(451)</visible>
-			<textcolor>Color4</textcolor>
-			<shadowcolor>fff4f4f4</shadowcolor>
 		</control>
 	</controls>
 </window>

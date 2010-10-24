@@ -126,6 +126,12 @@
 					</control>
 				</focusedlayout>
 				<content>
+					<item id="1">
+						<description>Favorites Menu</description>
+						<label>Favorites</label>
+						<onclick>Plex.ActivateWindow(Favourites)</onclick>
+						<visible>Skin.HasSetting(ShowFavorites)</visible>
+					</item>
 				</content>
 			</control>
 			<control type="list" id="400">
