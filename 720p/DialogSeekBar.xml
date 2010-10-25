@@ -4,6 +4,45 @@
 	<visible>![Window.IsVisible(script-XBMC-Subtitles-main.xml) | Window.IsActive(101) | Window.IsActive(2901) | Window.IsActive(142) ] + [Player.Caching | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
 	<controls>
 		<control type="group">
+			<posx>1043</posx>
+			<posy>20</posy>
+			<width>200</width>
+			<height>80</height>
+			<visible>!Window.IsActive(125) + Skin.HasSetting(ShowTimeOSD)</visible>
+			<control type="image">
+				<description>Panel</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<height>80</height>
+				<width>200</width>
+				<texture>osd/osd_time.png</texture>
+			</control>
+			<control type="label">
+				<posx>0</posx>
+				<posy>0</posy>
+				<visible>true + System.timeisampm</visible>
+				<width>200</width>
+				<height>80</height>
+				<label>$INFO[System.TimeNoAmPm]</label>
+				<font>info1</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>White</textcolor>
+			</control>
+			<control type="label">
+				<visible>true + !System.timeisampm</visible>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>200</width>
+				<height>80</height>
+				<label>$INFO[System.TimeAmPm]</label>
+				<font>info1</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>White</textcolor>
+			</control>
+		</control>
+		<control type="group">
 			<posx>0</posx>
 			<posy>561</posy>
 			<width>1280</width>
