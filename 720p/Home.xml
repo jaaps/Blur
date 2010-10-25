@@ -183,29 +183,29 @@
 				</focusedlayout>
 				<content>
 					<item id="1">
-						<description>Plex Online Menu</description>
-						<label>App Store</label>
-						<onclick>Plex.ActivateWindow(1,plex://localhost/system/plexonline,return)</onclick>
-					</item>
-					<item id="2">
 						<description>Video Apps</description>
 						<label>Video Apps</label>
 						<onclick>xbmc.activatewindow(6)</onclick>
 					</item>
-					<item id="3">
+					<item id="2">
 						<description>Music Apps</description>
 						<label>Music Apps</label>
 						<onclick>xbmc.activatewindow(5)</onclick>
 					</item>
-					<item id="4">
+					<item id="3">
 						<description>Photo Apps</description>
 						<label>Photo Apps</label>
 						<onclick>xbmc.activatewindow(2)</onclick>
 					</item>
-					<item id="5">
+					<item id="4">
 						<description>Other Apps</description>
 						<label>Other Apps</label>
 						<onclick>xbmc.activatewindow(1)</onclick>
+					</item>
+					<item id="5">
+						<description>Plex Online Menu</description>
+						<label>App Store</label>
+						<onclick>Plex.ActivateWindow(1,plex://localhost/system/plexonline,return)</onclick>
 					</item>
 				</content>
 			</control>
