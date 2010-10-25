@@ -253,7 +253,7 @@
 					<align>left</align>
 					<texturefocus>button.png</texturefocus>
 					<texturenofocus>-</texturenofocus>
-					<label>Show current tiime on OSD</label>
+					<label>Show current time on OSD</label>
 					<onclick>Skin.ToggleSetting(ShowTimeOSD)</onclick>
 					<selected>Skin.HasSetting(ShowTimeOSD)</selected>
 				</control>
