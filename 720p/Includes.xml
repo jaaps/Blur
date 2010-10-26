@@ -16,7 +16,7 @@
 		<posx>10</posx>
 		<posy>10</posy>
 		<font>Small</font>
-		<textcolor>Red</textcolor>
+		<textcolor>Gray</textcolor>
 		<align>left</align>
 	</include>
 	<include name="SideMenuViews">
@@ -33,13 +33,13 @@
 		</control>
 		<control type="button" id="9003">
 			<description>Horizon view button</description>
-			<visible>!Container.Content(secondary) + !Container.Content(episodes) + !Container.Content(albums) + !Container.Content(artists) + !Container.Content(songs)</visible>
+			<visible>!Container.Content(secondary) + !Container.Content(episodes) + !Container.Content(albums) + !Container.Content(artists) + !Container.Content(songs) + !Window.IsVisible(28) + !Window.IsVisible(500)</visible>
 			<label>Horizon</label>
 			<onclick>Container.SetViewMode(56)</onclick>
 		</control>
 		<control type="button" id="9004">
 			<description>Poster view button</description>
-			<visible>!Container.Content(episodes) + !Container.Content(Pictures) + !Container.Content(albums) + !Container.Content(songs) + !Container.Content(artists) + !Container.Content(secondary)</visible>
+			<visible>!Container.Content(episodes) + !Container.Content(Pictures) + !Container.Content(albums) + !Container.Content(songs) + !Container.Content(artists) + !Container.Content(secondary) + !Window.IsVisible(28) + !Window.IsVisible(500)</visible>
 			<label>Panel</label>
 			<onclick>Container.SetViewMode(55)</onclick>
 		</control>
@@ -312,6 +312,34 @@
 			<textcolor>White</textcolor>
 		</control>
 	</include>
+	<include name="HeaderPlaylist">
+		<control type="label">
+			<description>First title</description>
+			<visible>IsEmpty(Container.FirstTitle)</visible>
+			<label>[UPPERCASE]Playlist[/UPPERCASE]</label>
+			<posx>30</posx>
+			<posy>15</posy>
+			<width>1000</width>
+			<height>56</height>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>title1</font>
+			<textcolor>White</textcolor>
+		</control>
+		<control type="label">
+			<description>Second title</description>
+			<visible>IsEmpty(Container.SecondTitle) + [Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(55) | Control.IsVisible(56)] + IsEmpty(Container.FirstTitle)</visible>
+			<label>[COLOR=WhiteTrans]($INFO[Container.NumItems] items)[/COLOR]</label>
+			<posx>30</posx>
+			<posy>45</posy>
+			<width>1000</width>
+			<height>56</height>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>info1</font>
+			<textcolor>White</textcolor>
+		</control>
+	</include>
 	<include name="HeaderHome">
 		<control type="label">
 			<description>First title</description>
@@ -339,7 +367,7 @@
 		<posx>10</posx>
 		<posy>10</posy>
 		<font>Small</font>
-		<textcolor>Red</textcolor>
+		<textcolor>Gray</textcolor>
 		<align>left</align>
 	</include>
 </includes>

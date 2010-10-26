@@ -11,7 +11,7 @@
 		<textcolor>White</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<selectedcolor>White</selectedcolor>
-		<disabledcolor>Red</disabledcolor>
+		<disabledcolor>Gray</disabledcolor>
 		<scroll>true</scroll>
 	</default>
 	<default type="textbox">
@@ -24,7 +24,7 @@
 		<textcolor>White</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<selectedcolor>White</selectedcolor>
-		<disabledcolor>Red</disabledcolor>
+		<disabledcolor>Gray</disabledcolor>
 		<scroll>true</scroll>
 	</default>
 	<default type="image">
@@ -46,7 +46,7 @@
 		<label>-</label>
 		<textcolor>WhiteTrans</textcolor>
 		<focusedcolor>White</focusedcolor>
-		<disabledcolor>Red</disabledcolor>
+		<disabledcolor>Gray</disabledcolor>
 		<texturefocus>button3.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
 		<pulseonselect>false</pulseonselect>
@@ -65,27 +65,27 @@
 		<alttexturenofocus>ArrowDownNF.png</alttexturenofocus>
 		<focusedcolor>White</focusedcolor>
 		<selectedcolor>White</selectedcolor>
-		<disabledcolor>Red</disabledcolor>
+		<disabledcolor>Gray</disabledcolor>
 		<aligny>center</aligny>
 	</default>
 	<default type="radiobutton">
 		<description>Default Radiobutton</description>
-		<width>120</width>
-		<height>30</height>
+		<width>175</width>
+		<height>50</height>
 		<font>list2</font>
 		<textcolor>WhiteTrans</textcolor>
 		<align>left</align>
-		<textoffsetx>4</textoffsetx>
+		<textoffsetx>10</textoffsetx>
 		<textoffsety>1</textoffsety>
+		<texturefocus>button3.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
-		<texturefocus>ButtonOverlay.png</texturefocus>
 		<textureradiofocus>LEDOn.png</textureradiofocus>
 		<textureradionofocus>LEDOff.png</textureradionofocus>
 		<radiowidth>27</radiowidth>
 		<radioheight>27</radioheight>
 		<focusedcolor>White</focusedcolor>
 		<selectedcolor>White</selectedcolor>
-		<disabledcolor>Red</disabledcolor>
+		<disabledcolor>Gray</disabledcolor>
 		<aligny>center</aligny>
 	</default>
 	<default type="spincontrol">
@@ -106,7 +106,7 @@
 		<reverse>yes</reverse>
 		<focusedcolor>White</focusedcolor>
 		<selectedcolor>White</selectedcolor>
-		<disabledcolor>Red</disabledcolor>
+		<disabledcolor>Gray</disabledcolor>
 		<aligny>center</aligny>
 	</default>
 	<default type="spincontrolex">
@@ -127,7 +127,7 @@
 		<reverse>yes</reverse>
 		<focusedcolor>White</focusedcolor>
 		<selectedcolor>White</selectedcolor>
-		<disabledcolor>Red</disabledcolor>
+		<disabledcolor>Gray</disabledcolor>
 		<aligny>center</aligny>
 	</default>
 	<default type="progress">
