@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <window id="0">
-	<defaultcontrol always="true">200</defaultcontrol>
+	<defaultcontrol always="true">299</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 	<controls>
 		<include>Background</include>
@@ -19,13 +19,9 @@
 			<height>720</height>
 			<visible>-</visible>
 			<onright>299</onright>
-			<onup>200</onup>
-			<ondown>200</ondown>
-			<onleft>200</onleft>
 			<focusposition>2</focusposition>
 			<scrolltime>200</scrolltime>
-			<animation effect="fade" start="40" end="100" time="300">Focus</animation>
-			<animation effect="fade" start="100" end="40" time="300">UnFocus</animation>
+			<animation effect="fade" start="100" end="50" time="300" condition="ControlGroup(299).HasFocus">Conditional</animation>
 			<itemlayout height="90">
 				<control type="label">
 					<posx>400</posx>
@@ -75,21 +71,27 @@
 			</content>
 		</control>
 		<control type="group" id="299">
-			<animation effect="fade" start="60" end="100" time="300">Focus</animation>
-			<animation effect="fade" start="100" end="60" time="300">UnFocus</animation>
+			<onup>Setfocus(299)</onup>
+			<ondown>Setfocus(299)</ondown>
+			<onleft>Setfocus(299)</onleft>
+			<onright>Setfocus(299)</onright>
+			<onfocus>Setfocus(299)</onfocus>
+			<animation effect="fade" start="50" end="100" time="300" condition="ControlGroup(299).HasFocus">Conditional</animation>
 			<control type="list" id="300">
 				<description>Home Fixedlist</description>
 				<posx>590</posx>
 				<posy>210</posy>
 				<width>700</width>
 				<height>300</height>
-				<onup>300</onup>
-				<ondown>300</ondown>
-				<onleft>200</onleft>
-				<onright>200</onright>
+				<onup>Setfocus(300)</onup>
+				<ondown>Setfocus(300)</ondown>
+				<onleft>Setfocus(200)</onleft>
+				<onright>Setfocus(300)</onright>
+				<onfocus>Setfocus(300)</onfocus>
 				<focusposition>1</focusposition>
 				<scrolltime>200</scrolltime>
-				<visible allowhiddenfocus="false">Container(200).HasFocus(1)</visible>
+							<onfocus>SetFocus(200,1)</onfocus>
+				<visible allowhiddenfocus="false">Container(200).HasFocus(1) | Container(300).HasFocus</visible>
 				<animation effect="fade" time="300">VisibleChange</animation>
 				<itemlayout height="50">
 					<control type="label">
@@ -140,13 +142,15 @@
 				<posy>210</posy>
 				<width>700</width>
 				<height>300</height>
-				<onup>400</onup>
-				<ondown>400</ondown>
-				<onleft>200</onleft>
-				<onright>200</onright>
+				<onup>Setfocus(400)</onup>
+				<ondown>Setfocus(400)</ondown>
+				<onleft>Setfocus(200)</onleft>
+				<onright>Setfocus(400)</onright>
+				<onfocus>Setfocus(400)</onfocus>
 				<focusposition>1</focusposition>
 				<scrolltime>200</scrolltime>
-				<visible allowhiddenfocus="false">Container(200).HasFocus(2) + !Control.HasFocus(300)</visible>
+							<onfocus>SetFocus(200)</onfocus>
+				<visible allowhiddenfocus="false">Container(200).HasFocus(2) | Container(400).HasFocus</visible>
 				<animation effect="fade" time="300">VisibleChange</animation>
 				<itemlayout height="50">
 					<control type="label">
@@ -215,13 +219,16 @@
 				<posy>210</posy>
 				<width>700</width>
 				<height>400</height>
-				<onup>400</onup>
-				<ondown>400</ondown>
+				<onup>Setfocus(500)</onup>
+				<ondown>Setfocus(500)</ondown>
+				<onleft>Setfocus(200)</onleft>
+				<onright>Setfocus(500)</onright>
+				<onfocus>Setfocus(500)</onfocus>
 				<onleft>200</onleft>
 				<onright>200</onright>
 				<focusposition>1</focusposition>
 				<scrolltime>200</scrolltime>
-				<visible allowhiddenfocus="false">Container(200).HasFocus(3) + !Control.HasFocus(300)</visible>
+				<visible allowhiddenfocus="false">Container(200).HasFocus(3) | Container(500).HasFocus</visible>
 				<animation effect="fade" time="300">VisibleChange</animation>
 				<itemlayout height="50">
 					<control type="label">
@@ -306,13 +313,16 @@
 				<posy>210</posy>
 				<width>700</width>
 				<height>300</height>
-				<onup>400</onup>
-				<ondown>400</ondown>
+				<onup>Setfocus(600)</onup>
+				<ondown>Setfocus(600)</ondown>
+				<onleft>Setfocus(200)</onleft>
+				<onright>Setfocus(600)</onright>
+				<onfocus>Setfocus(600)</onfocus>
 				<onleft>200</onleft>
 				<onright>200</onright>
 				<focusposition>1</focusposition>
 				<scrolltime>200</scrolltime>
-				<visible allowhiddenfocus="false">Container(200).HasFocus(4) + !Control.HasFocus(300)</visible>
+				<visible allowhiddenfocus="false">Container(200).HasFocus(4) | Container(600).HasFocus</visible>
 				<animation effect="fade" time="300">VisibleChange</animation>
 				<itemlayout height="50">
 					<control type="label">
