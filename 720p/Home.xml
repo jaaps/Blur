@@ -21,7 +21,7 @@
 			<onright>299</onright>
 			<focusposition>2</focusposition>
 			<scrolltime>200</scrolltime>
-			<animation effect="fade" start="100" end="50" time="300" condition="ControlGroup(299).HasFocus">Conditional</animation>
+			<animation effect="fade" start="100" end="30" time="300" condition="ControlGroup(299).HasFocus">Conditional</animation>
 			<itemlayout height="90">
 				<control type="label">
 					<posx>400</posx>
@@ -76,7 +76,7 @@
 			<onleft>Setfocus(299)</onleft>
 			<onright>Setfocus(299)</onright>
 			<onfocus>Setfocus(299)</onfocus>
-			<animation effect="fade" start="50" end="100" time="300" condition="ControlGroup(299).HasFocus">Conditional</animation>
+			<animation effect="fade" start="30" end="100" time="300" condition="ControlGroup(299).HasFocus">Conditional</animation>
 			<control type="list" id="300">
 				<description>Home Fixedlist</description>
 				<posx>590</posx>
