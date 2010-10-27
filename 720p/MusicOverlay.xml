@@ -2,7 +2,5 @@
 <window id="2004">
 	<defaultcontrol>2</defaultcontrol>
 	<controls>
-		<control type="group">
-		</control>
 	</controls>
 </window>
