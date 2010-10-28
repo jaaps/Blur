@@ -776,7 +776,7 @@
 						<height>50</height>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
-						<textcolor>WhiteTrans</textcolor>
+						<textcolor>White</textcolor>
 						<scroll>false</scroll>
 						<font>list1</font>
 					</control>
