@@ -179,7 +179,7 @@
 	<include name="Header">
 		<control type="label">
 			<description>First title</description>
-			<visible>!IsEmpty(Container.FirstTitle) + !Window.IsVisible(2003)</visible>
+			<visible>!IsEmpty(Container.FirstTitle)</visible>
 			<label>[UPPERCASE]$INFO[Container.FirstTitle][/UPPERCASE]</label>
 			<posx>30</posx>
 			<posy>15</posy>
@@ -193,35 +193,7 @@
 		
 		<control type="label">
 			<description>First title</description>
-			<visible>Window.IsVisible(2003) + Container.Content(movies)</visible>
-			<label>[UPPERCASE]$INFO[ListItem.Title][/UPPERCASE]</label>
-			<posx>30</posx>
-			<posy>15</posy>
-			<width>1000</width>
-			<height>56</height>
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>title1</font>
-			<textcolor>White</textcolor>
-		</control>
-		
-		<control type="label">
-			<description>First title</description>
-			<visible>Window.IsVisible(2003) + [Container.Content(episodes) | Container.Content(seasons) | Container.Content(tvshows)]</visible>
-			<label>[UPPERCASE]$INFO[ListItem.TVShowTitle][/UPPERCASE]</label>
-			<posx>30</posx>
-			<posy>15</posy>
-			<width>1000</width>
-			<height>56</height>
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>title1</font>
-			<textcolor>White</textcolor>
-		</control>
-		
-		<control type="label">
-			<description>First title</description>
-			<visible>[Window.IsVisible(settings) | Window.IsVisible(VideosSettings) | Window.IsVisible(MusicSettings) | Window.IsVisible(PicturesSettings) | Window.IsVisible(WeatherSettings) | Window.IsVisible(SystemSettings) | Window.IsVisible(NetworkSettings) | Window.IsVisible(AppearanceSettings)] + !Window.IsVisible(2003)</visible>
+			<visible>[Window.IsVisible(settings) | Window.IsVisible(VideosSettings) | Window.IsVisible(MusicSettings) | Window.IsVisible(PicturesSettings) | Window.IsVisible(WeatherSettings) | Window.IsVisible(SystemSettings) | Window.IsVisible(NetworkSettings) | Window.IsVisible(AppearanceSettings)]</visible>
 			<label>[UPPERCASE]$INFO[System.CurrentWindow][/UPPERCASE]</label>
 			<posx>30</posx>
 			<posy>15</posy>
@@ -235,7 +207,7 @@
 		
 		<control type="label">
 			<description>Second title</description>
-			<visible>!IsEmpty(Container.SecondTitle) + !Window.ISVisible(2003)</visible>
+			<visible>!IsEmpty(Container.SecondTitle)</visible>
 			<label>[UPPERCASE]$INFO[Container.SecondTitle][/UPPERCASE] [COLOR=WhiteTrans]($INFO[Container.NumItems] items)[/COLOR]</label>
 			<posx>30</posx>
 			<posy>45</posy>
@@ -248,36 +220,8 @@
 		</control>
 		<control type="label">
 			<description>Second title</description>
-			<visible>IsEmpty(Container.SecondTitle) + [Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(55) | Control.IsVisible(56)] + !IsEmpty(Container.FirstTitle) + !Window.IsVisible(2003)</visible>
+			<visible>IsEmpty(Container.SecondTitle) + [Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(55) | Control.IsVisible(56)] + !IsEmpty(Container.FirstTitle)</visible>
 			<label>[COLOR=WhiteTrans]($INFO[Container.NumItems] items)[/COLOR]</label>
-			<posx>30</posx>
-			<posy>45</posy>
-			<width>1000</width>
-			<height>56</height>
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>info1</font>
-			<textcolor>White</textcolor>
-		</control>
-		
-		<control type="label">
-			<description>Second title</description>
-			<visible>Window.IsVisible(2003) + Container.Content(movies)</visible>
-			<label>[COLOR=WhiteTrans]$INFO[ListItem.Year] - $INFO[ListItem.FirstGenre][/COLOR]</label>
-			<posx>30</posx>
-			<posy>45</posy>
-			<width>1000</width>
-			<height>56</height>
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>info1</font>
-			<textcolor>White</textcolor>
-		</control>
-		
-		<control type="label">
-			<description>Second title</description>
-			<visible>Window.IsVisible(2003) + Container.Content(episodes)</visible>
-			<label>[COLOR=WhiteTrans]SEASON[/COLOR] $INFO[ListItem.season] [COLOR=WhiteTrans]EPISODE[/COLOR] $INFO[ListItem.episode]</label>
 			<posx>30</posx>
 			<posy>45</posy>
 			<width>1000</width>
