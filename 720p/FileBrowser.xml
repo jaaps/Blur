@@ -16,6 +16,11 @@
 				<include>dialogWindow</include>
 			</control>
 			<control type="image">
+				<width>750</width>
+				<height>575</height>
+				<include>dialogWindow</include>
+			</control>
+			<control type="image">
 				<posx>574</posx>
 				<posy>18</posy>
 				<width>150</width>
