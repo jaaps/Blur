@@ -111,20 +111,11 @@
 			<control type="largeimage">
 				<width>1280</width>
 				<height>720</height>
-				<texture>$INFO[listitem.property(fanart_image)]</texture>
+				<texture background="true">$INFO[listitem.property(fanart_image)]</texture>
 				<aspectratio>scale</aspectratio>
-				<visible>!Container.OnNext + !Container.OnPrevious + !Container.Content(episodes)</visible>
+				<fadetime>500</fadetime>
 				<animation effect="fade" start="0" end="90" time="500">Visible</animation>
-				<visible>Skin.HasSetting(Fanart)</visible>
-			</control>
-			<control type="largeimage">
-				<width>1280</width>
-				<height>720</height>
-				<texture>$INFO[listitem.property(fanart_image)]</texture>
-				<aspectratio>scale</aspectratio>
-				<visible>Container.Content(episodes)</visible>
-				<animation effect="fade" start="0" end="90" time="500">Visible</animation>
-				<visible>Skin.HasSetting(Fanart)</visible>
+				<visible>Skin.HasSetting(Fanart) + !IsEmpty(listitem.property(fanart_image))</visible>
 			</control>
 			<control type="image">
 				<width>1280</width>
@@ -165,6 +156,7 @@
 		<onclick>Skin.Reset(Background1)</onclick>
 		<onclick>Skin.Reset(Background2)</onclick>
 		<onclick>Skin.Reset(Background3)</onclick>
+		<onclick>Skin.Reset(Background4)</onclick>
 	</include>
 	<include name="videoPageLabel">
 		<posx>30</posx>
