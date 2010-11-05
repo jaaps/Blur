@@ -78,7 +78,7 @@
 					<height>30</height>
 					<texture>$INFO[Listitem.Property(mediaTag-videoResolution),flags/resolution/,.png]</texture>
 					<visible>Skin.HasSetting(Flags)</visible>
-					<aspectratio align="left" aligny="top">keep</aspectratio>
+					<aspectratio align="left" aligny="center">keep</aspectratio>
 				</control>
 				<control type="label">
 					<posx>102</posx>
@@ -489,7 +489,7 @@
 					<height>30</height>
 					<texture>$INFO[Listitem.Property(mediaTag-videoResolution),flags/resolution/,.png]</texture>
 					<visible>Skin.HasSetting(Flags)</visible>
-					<aspectratio align="left" aligny="top">keep</aspectratio>
+					<aspectratio align="left" aligny="center">keep</aspectratio>
 				</control>
 				<control type="label">
 					<posx>102</posx>
