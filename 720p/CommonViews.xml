@@ -588,13 +588,25 @@
 						<font>list1</font>
 					</control>
 					<control type="label">
-						<visible>Container.Content(episodes)</visible>
+						<visible>Container.Content(episodes) + IsEmpty(Container.Property(mixedParents))</visible>
 						<posy>0</posy>
 						<posx>35</posx>
 						<width>400</width>
 						<aligny>center</aligny>
 						<height>50</height>
 						<label>$INFO[ListItem.Episode]. $INFO[ListItem.Label]</label>
+						<textcolor>WhiteTrans</textcolor>
+						<scroll>false</scroll>
+						<font>list1</font>
+					</control>
+					<control type="label">
+						<visible>Container.Content(episodes) + !IsEmpty(Container.Property(mixedParents))</visible>
+						<posy>0</posy>
+						<posx>35</posx>
+						<width>400</width>
+						<aligny>center</aligny>
+						<height>50</height>
+						<label>$INFO[ListItem.TVShowTitle]:  $INFO[ListItem.Label]</label>
 						<textcolor>WhiteTrans</textcolor>
 						<scroll>false</scroll>
 						<font>list1</font>
@@ -648,13 +660,25 @@
 						<font>list1</font>
 					</control>
 					<control type="label">
-						<visible>Container.Content(episodes)</visible>
+						<visible>Container.Content(episodes) + IsEmpty(Container.Property(mixedParents))</visible>
 						<posy>0</posy>
 						<posx>35</posx>
 						<width>400</width>
 						<aligny>center</aligny>
 						<height>50</height>
 						<label>$INFO[ListItem.Episode]. $INFO[ListItem.Label]</label>
+						<textcolor>White</textcolor>
+						<scroll>false</scroll>
+						<font>list1</font>
+					</control>
+					<control type="label">
+						<visible>Container.Content(episodes) + !IsEmpty(Container.Property(mixedParents))</visible>
+						<posy>0</posy>
+						<posx>35</posx>
+						<width>400</width>
+						<aligny>center</aligny>
+						<height>50</height>
+						<label>$INFO[ListItem.TVShowTitle]:  $INFO[ListItem.Label]</label>
 						<textcolor>White</textcolor>
 						<scroll>false</scroll>
 						<font>list1</font>
@@ -729,13 +753,25 @@
 						<font>list1</font>
 					</control>
 					<control type="label">
-						<visible>Container.Content(episodes)</visible>
+						<visible>Container.Content(episodes) + IsEmpty(Container.Property(mixedParents))</visible>
 						<posy>0</posy>
 						<posx>35</posx>
 						<width>670</width>
 						<aligny>center</aligny>
 						<height>50</height>
 						<label>$INFO[ListItem.Episode]. $INFO[ListItem.Label]</label>
+						<textcolor>WhiteTrans</textcolor>
+						<scroll>false</scroll>
+						<font>list1</font>
+					</control>
+					<control type="label">
+						<visible>Container.Content(episodes) + !IsEmpty(Container.Property(mixedParents))</visible>
+						<posy>0</posy>
+						<posx>35</posx>
+						<width>670</width>
+						<aligny>center</aligny>
+						<height>50</height>
+						<label>$INFO[ListItem.TVShowTitle]: $INFO[ListItem.Label]</label>
 						<textcolor>WhiteTrans</textcolor>
 						<scroll>false</scroll>
 						<font>list1</font>
@@ -789,13 +825,25 @@
 						<font>list1</font>
 					</control>
 					<control type="label">
-						<visible>Container.Content(episodes)</visible>
+						<visible>Container.Content(episodes) + IsEmpty(Container.Property(mixedParents))</visible>
 						<posy>0</posy>
 						<posx>35</posx>
 						<width>670</width>
 						<aligny>center</aligny>
 						<height>50</height>
 						<label>$INFO[ListItem.Episode]. $INFO[ListItem.Label]</label>
+						<textcolor>White</textcolor>
+						<scroll>false</scroll>
+						<font>list1</font>
+					</control>
+					<control type="label">
+						<visible>Container.Content(episodes) + !IsEmpty(Container.Property(mixedParents))</visible>
+						<posy>0</posy>
+						<posx>35</posx>
+						<width>670</width>
+						<aligny>center</aligny>
+						<height>50</height>
+						<label>$INFO[ListItem.TVShowTitle]: $INFO[ListItem.Label]</label>
 						<textcolor>White</textcolor>
 						<scroll>false</scroll>
 						<font>list1</font>
