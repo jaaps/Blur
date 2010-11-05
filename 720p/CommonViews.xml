@@ -75,7 +75,7 @@
 				<itemgap>-1</itemgap>
 				<control type="image">
 					<width min="1" max="52">auto</width>
-					<height>30</height>
+					<height>42</height>
 					<texture>$INFO[Listitem.Property(mediaTag-videoResolution),flags/resolution/,.png]</texture>
 					<visible>Skin.HasSetting(Flags)</visible>
 					<aspectratio align="left" aligny="center">keep</aspectratio>
@@ -84,7 +84,7 @@
 					<posx>102</posx>
 					<posy>0</posy>
 					<width>350</width>
-					<height>30</height>
+					<height>42</height>
 					<font>info1</font>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -486,7 +486,7 @@
 				<itemgap>-1</itemgap>
 				<control type="image">
 					<width min="1" max="52">auto</width>
-					<height>30</height>
+					<height>42</height>
 					<texture>$INFO[Listitem.Property(mediaTag-videoResolution),flags/resolution/,.png]</texture>
 					<visible>Skin.HasSetting(Flags)</visible>
 					<aspectratio align="left" aligny="center">keep</aspectratio>
@@ -495,7 +495,7 @@
 					<posx>102</posx>
 					<posy>0</posy>
 					<width>350</width>
-					<height>30</height>
+					<height>42</height>
 					<font>info1</font>
 					<align>left</align>
 					<aligny>center</aligny>
