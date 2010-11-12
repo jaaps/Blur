@@ -4,6 +4,12 @@
 	<allowoverlay>yes</allowoverlay>
 	<controls>
 		<include>Background</include>
+		<control type="image">
+			<height>680</height>
+			<posx>250</posx>
+			<posy>60</posy>
+			<texture>divider.png</texture>
+		</control>
 		<control type="label">
 			<description>First title</description>
 			<label>CUSTOM SETTINGS</label>

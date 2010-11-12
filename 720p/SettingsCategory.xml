@@ -5,6 +5,12 @@
 	<controls>
 		<include>Background</include>
 		<include>Header</include>
+		<control type="image">
+			<height>680</height>
+			<posx>250</posx>
+			<posy>60</posy>
+			<texture>divider.png</texture>
+		</control>
 		<control type="grouplist" id="3">
 			<description>Button Area</description>
 			<posx>30</posx>
