@@ -46,7 +46,6 @@
 			<posy>561</posy>
 			<width>1280</width>
 			<height>159</height>
-			<visible>!Window.IsActive(125)</visible>
 			<control type="image">
 				<description>Panel</description>
 				<posx>0</posx>
