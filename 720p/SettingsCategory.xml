@@ -39,20 +39,30 @@
 		</control>
 		<control type="button" id="7">
 			<description>Default Button</description>
+			<textoffsetx>20</textoffsetx>
 			<align>left</align>
-			<textoffsetx/>
+			<texturefocus>button.png</texturefocus>
+			<texturenofocus>-</texturenofocus>
+			<height>50</height>
 		</control>
 		<control type="radiobutton" id="8">
 			<description>Default Radio Button</description>
+			<textoffsetx>20</textoffsetx>
 			<align>left</align>
+			<texturefocus>button.png</texturefocus>
+			<texturenofocus>-</texturenofocus>
+			<height>50</height>
 		</control>
 		<control type="spincontrolex" id="9">
 			<description>Default Spin Control</description>
+			<textoffsetx>20</textoffsetx>
 			<align>left</align>
+			<texturefocus>button.png</texturefocus>
+			<texturenofocus>-</texturenofocus>
+			<height>50</height>
 		</control>
 		<control type="button" id="10">
 			<description>Default Category Button</description>
-			<width>150</width>
 		</control>
 	</controls>
 </window>
