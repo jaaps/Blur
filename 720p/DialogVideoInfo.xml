@@ -84,6 +84,12 @@
 						<visible>!IsEmpty(ListItem.Genre)</visible>
 					</control>
 					<control type="label">
+						<label>[COLOR=WhiteTrans]Rating [/COLOR] $INFO[ListItem.MPAA]</label>
+						<font>info1</font>
+						<aligny>top</aligny>
+						<visible>!IsEmpty(ListItem.MPAA)</visible>
+					</control>
+					<control type="label">
 						<label>[COLOR=WhiteTrans]Duration [/COLOR] $INFO[ListItem.Duration]</label>
 						<font>info1</font>
 						<height>50</height>
