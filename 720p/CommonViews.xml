@@ -441,7 +441,7 @@
 			<usecontrolcoords>false</usecontrolcoords>
 			<control type="label">
 				<width>352</width>
-				<height>30</height>
+				<height>36</height>
 				<font>title1</font>
 				<align>left</align>
 				<aligny>top</aligny>
