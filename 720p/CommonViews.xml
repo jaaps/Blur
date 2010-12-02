@@ -151,7 +151,7 @@
 				<align>left</align>
 				<aligny>top</aligny>
 				<textcolor>WhiteTrans</textcolor>
-				<label>$INFO[ListItem.Property(UnWatchedEpisodes)] uwatched episodes</label>
+				<label>$INFO[ListItem.Property(UnWatchedEpisodes)] unwatched episodes</label>
 			</control>
 		</control>
 		<control type="grouplist">
