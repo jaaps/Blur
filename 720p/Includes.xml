@@ -169,34 +169,49 @@
 		<textcolor>White</textcolor>
 	</include>
 	<include name="Header">
-		<control type="label">
-			<description>First title</description>
-			<visible>!IsEmpty(Container.FirstTitle)</visible>
-			<label>[UPPERCASE]$INFO[Container.FirstTitle][/UPPERCASE]</label>
-			<posx>30</posx>
-			<posy>15</posy>
-			<width>1000</width>
-			<height>56</height>
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>title1</font>
-			<textcolor>White</textcolor>
+		<control type="group">
+			<visible>!Container.Scrolling</visible>
+			<control type="label">
+				<description>First title</description>
+				<visible>!IsEmpty(Container.FirstTitle)</visible>
+				<label>[UPPERCASE]$INFO[Container.FirstTitle][/UPPERCASE]</label>
+				<posx>30</posx>
+				<posy>15</posy>
+				<width>1000</width>
+				<height>56</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>title1</font>
+				<textcolor>White</textcolor>
+			</control>
+			<control type="label">
+				<description>First title</description>
+				<visible>[Window.IsVisible(settings) | Window.IsVisible(VideosSettings) | Window.IsVisible(MusicSettings) | Window.IsVisible(PicturesSettings) | Window.IsVisible(WeatherSettings) | Window.IsVisible(SystemSettings) | Window.IsVisible(NetworkSettings) | Window.IsVisible(AppearanceSettings)]</visible>
+				<label>[UPPERCASE]$INFO[System.CurrentWindow][/UPPERCASE]</label>
+				<posx>30</posx>
+				<posy>15</posy>
+				<width>1000</width>
+				<height>56</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>title1</font>
+				<textcolor>White</textcolor>
+			</control>
 		</control>
-		
-		<control type="label">
-			<description>First title</description>
-			<visible>[Window.IsVisible(settings) | Window.IsVisible(VideosSettings) | Window.IsVisible(MusicSettings) | Window.IsVisible(PicturesSettings) | Window.IsVisible(WeatherSettings) | Window.IsVisible(SystemSettings) | Window.IsVisible(NetworkSettings) | Window.IsVisible(AppearanceSettings)]</visible>
-			<label>[UPPERCASE]$INFO[System.CurrentWindow][/UPPERCASE]</label>
-			<posx>30</posx>
-			<posy>15</posy>
-			<width>1000</width>
-			<height>56</height>
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>title1</font>
-			<textcolor>White</textcolor>
+		<control type="group">
+			<visible>Container.Scrolling</visible>
+			<control type="label">
+				<label>$INFO[ListItem.SortLetter]</label>
+				<posx>30</posx>
+				<posy>15</posy>
+				<width>1000</width>
+				<height>56</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>title1</font>
+				<textcolor>White</textcolor>
+			</control>
 		</control>
-		
 		<control type="label">
 			<description>Second title</description>
 			<visible>!IsEmpty(Container.SecondTitle)</visible>
@@ -223,7 +238,6 @@
 			<font>info1</font>
 			<textcolor>White</textcolor>
 		</control>
-		
 		<control type="group">
 			<visible>System.hasnetwork + !Skin.HasSetting(HideWeather)</visible>
 			<control type="label">
@@ -282,7 +296,7 @@
 	<include name="HeaderVideos">
 		<control type="label">
 			<description>First title</description>
-			<visible>IsEmpty(Container.FirstTitle)</visible>
+			<visible>IsEmpty(Container.FirstTitle) + !Container.Scrolling</visible>
 			<label>[UPPERCASE]$LOCALIZE[3][/UPPERCASE]</label>
 			<posx>30</posx>
 			<posy>15</posy>
@@ -310,7 +324,7 @@
 	<include name="HeaderPlaylist">
 		<control type="label">
 			<description>First title</description>
-			<visible>IsEmpty(Container.FirstTitle)</visible>
+			<visible>IsEmpty(Container.FirstTitle) + !Container.Scrolling</visible>
 			<label>[UPPERCASE]Playlist[/UPPERCASE]</label>
 			<posx>30</posx>
 			<posy>15</posy>

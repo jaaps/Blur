@@ -8,9 +8,9 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>plot1</font>
+				<selectedcolor>Red</selectedcolor>
 		<textcolor>White</textcolor>
 		<focusedcolor>White</focusedcolor>
-		<selectedcolor>White</selectedcolor>
 		<disabledcolor>Gray</disabledcolor>
 		<scroll>true</scroll>
 	</default>
