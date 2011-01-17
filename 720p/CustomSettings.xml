@@ -207,6 +207,18 @@
 					<onclick>Skin.ToggleSetting(Bokeh2)</onclick>
 					<onclick>XBMC.ReloadSkin()</onclick>
 				</control>
+				<control type="radiobutton" id="2021">
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<label>Toggle Rotating Bokeh</label>
+					<selected>Skin.HasSetting(RotatingBokeh)</selected>
+					<onclick>Skin.ToggleSetting(RotatingBokeh)</onclick>
+					<onclick>XBMC.ReloadSkin()</onclick>
+				</control>
 			</control>
 			<control type="grouplist" id="5">
 				<visible>ControlGroup(3).Hasfocus(2)</visible>
@@ -314,9 +326,42 @@
 					<align>left</align>
 					<texturefocus>button.png</texturefocus>
 					<texturenofocus>-</texturenofocus>
+					<label>Show Weather Page in Home-&gt;Apps</label>
+					<onclick>Skin.ToggleSetting(ShowMyWeather)</onclick>
+					<selected>Skin.HasSetting(ShowMyWeather)</selected>
+				</control>
+				<control type="radiobutton" id="2028">
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
 					<label>Show Rating as text</label>
 					<onclick>Skin.ToggleSetting(AlternateRating)</onclick>
 					<selected>Skin.HasSetting(AlternateRating)</selected>
+				</control>
+				<control type="radiobutton" id="2029">
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<label>Show Other Apps in Home-&gt;Apps</label>
+					<onclick>Skin.ToggleSetting(ShowOtherApps)</onclick>
+					<selected>Skin.HasSetting(ShowOtherApps)</selected>
+				</control>
+				<control type="radiobutton" id="2030">
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<label>Show DVD in Home-&gt;My Media</label>
+					<onclick>Skin.ToggleSetting(ShowDVD)</onclick>
+					<selected>Skin.HasSetting(ShowDVD)</selected>
 				</control>
 			</control>
 		</control>

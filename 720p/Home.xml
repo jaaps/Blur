@@ -134,6 +134,12 @@
 						<onclick>Plex.ActivateWindow(Favourites)</onclick>
 						<visible>Skin.HasSetting(ShowFavorites)</visible>
 					</item>
+					<item id="2">
+            			<description>DVD</description>
+           		    	<label>DVD</label>
+           		    	<onclick>XBMC.PlayDVD</onclick>
+           		    	<visible>System.HasMediadvd + Skin.HasSetting(ShowDVD)</visible>
+     	       		 </item>
 				</content>
 			</control>
 			<control type="list" id="400">
@@ -205,8 +211,15 @@
 						<description>Other Apps</description>
 						<label>Other Apps</label>
 						<onclick>xbmc.activatewindow(1)</onclick>
+						<visible>Skin.HasSetting(ShowOtherApps)</visible>
 					</item>
 					<item id="5">
+						<description>Weather</description>
+						<label>Weather Forecast</label>
+						<onclick>xbmc.activatewindow(2600)</onclick>
+						<visible>Skin.HasSetting(ShowMyWeather)</visible>
+					</item>
+					<item id="6">
 						<description>Plex Online Menu</description>
 						<label>App Store</label>
 						<onclick>Plex.ActivateWindow(1,plex://localhost/system/plexonline,return)</onclick>
@@ -302,7 +315,7 @@
 					</item>
 					<item id="13">
 						<description>Custom Settings</description>
-						<label>$LOCALIZE[636]</label>
+						<label>Blur</label>
 						<onclick>activatewindow(56)</onclick>
 					</item>
 				</content>
