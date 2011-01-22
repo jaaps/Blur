@@ -12,26 +12,26 @@
 			<texture>divider.png</texture>
 		</control>
 		<control type="group">
-									<visible>Skin.HasSetting(ShowPlexLogo)</visible>
-		<control type="image">
-			<texture>plexicon.png</texture>
-			<width>85</width>
-			<height>85</height>
-			<posx>460</posx>
-			<posy>80</posy>
+			<visible>Skin.HasSetting(ShowPlexLogo)</visible>
+			<control type="image">
+				<texture>plexicon.png</texture>
+				<width>85</width>
+				<height>85</height>
+				<posx>460</posx>
+				<posy>80</posy>
+			</control>
+			<control type="label">
+				<width>300</width>
+				<height>85</height>
+				<aligny>center</aligny>
+				<label>PLEX</label>
+				<textcolor>White</textcolor>
+				<scroll>false</scroll>
+				<font>HomeMenuItem</font>
+				<posx>590</posx>
+				<posy>82</posy>
+			</control>
 		</control>
-		<control type="label">
-			<width>300</width>
-			<height>85</height>
-			<aligny>center</aligny>
-			<label>PLEX</label>
-			<textcolor>White</textcolor>
-			<scroll>false</scroll>
-			<font>HomeMenuItem</font>
-			<posx>590</posx>
-			<posy>82</posy>
-		</control>
-	</control>
 		<control type="list" id="200">
 			<description>Home Fixedlist</description>
 			<posx>130</posx>
@@ -111,7 +111,7 @@
 				<onfocus>Setfocus(300)</onfocus>
 				<focusposition>1</focusposition>
 				<scrolltime>200</scrolltime>
-							<onfocus>SetFocus(200,1)</onfocus>
+				<onfocus>SetFocus(200,1)</onfocus>
 				<visible allowhiddenfocus="false">Container(200).HasFocus(1) | Container(300).HasFocus</visible>
 				<animation effect="fade" time="300">VisibleChange</animation>
 				<itemlayout height="50">
@@ -156,11 +156,11 @@
 						<visible>Skin.HasSetting(ShowFavorites)</visible>
 					</item>
 					<item id="2">
-            			<description>DVD</description>
-           		    	<label>DVD</label>
-           		    	<onclick>XBMC.PlayDVD</onclick>
-           		    	<visible>System.HasMediadvd + Skin.HasSetting(ShowDVD)</visible>
-     	       		 </item>
+						<description>DVD</description>
+						<label>DVD</label>
+						<onclick>XBMC.PlayDVD</onclick>
+						<visible>System.HasMediadvd + Skin.HasSetting(ShowDVD)</visible>
+					</item>
 				</content>
 			</control>
 			<control type="list" id="400">
@@ -176,7 +176,7 @@
 				<onfocus>Setfocus(400)</onfocus>
 				<focusposition>1</focusposition>
 				<scrolltime>200</scrolltime>
-							<onfocus>SetFocus(200)</onfocus>
+				<onfocus>SetFocus(200)</onfocus>
 				<visible allowhiddenfocus="false">Container(200).HasFocus(2) | Container(400).HasFocus</visible>
 				<animation effect="fade" time="300">VisibleChange</animation>
 				<itemlayout height="50">
