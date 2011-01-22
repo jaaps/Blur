@@ -231,6 +231,17 @@
 				<onleft>3</onleft>
 				<onright>3</onright>
 				<orientation>vertical</orientation>
+				<control type="radiobutton" id="2018">
+					<height>50</height>
+					<width>710</width>
+					<textoffsetx>20</textoffsetx>
+					<align>left</align>
+					<texturefocus>button.png</texturefocus>
+					<texturenofocus>-</texturenofocus>
+					<label>Show Plex Logo in Home</label>
+					<selected>Skin.HasSetting(ShowPlexLogo)</selected>
+					<onclick>Skin.ToggleSetting(ShowPlexLogo)</onclick>
+				</control>
 				<control type="radiobutton" id="2019">
 					<height>50</height>
 					<width>710</width>

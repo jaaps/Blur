@@ -11,6 +11,27 @@
 			<posy>100</posy>
 			<texture>divider.png</texture>
 		</control>
+		<control type="group">
+									<visible>Skin.HasSetting(ShowPlexLogo)</visible>
+		<control type="image">
+			<texture>plexicon.png</texture>
+			<width>85</width>
+			<height>85</height>
+			<posx>460</posx>
+			<posy>80</posy>
+		</control>
+		<control type="label">
+			<width>300</width>
+			<height>85</height>
+			<aligny>center</aligny>
+			<label>PLEX</label>
+			<textcolor>White</textcolor>
+			<scroll>false</scroll>
+			<font>HomeMenuItem</font>
+			<posx>590</posx>
+			<posy>82</posy>
+		</control>
+	</control>
 		<control type="list" id="200">
 			<description>Home Fixedlist</description>
 			<posx>130</posx>
