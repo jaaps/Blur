@@ -52,8 +52,8 @@
 				<posx>290</posx>
 				<posy>100</posy>
 				<width>710</width>
-				<height>480</height>
-				<itemgap>9</itemgap>
+				<height>563</height>
+				<itemgap>4</itemgap>
 				<onleft>3</onleft>
 				<onright>3</onright>
 				<orientation>vertical</orientation>
@@ -226,8 +226,8 @@
 				<posx>290</posx>
 				<posy>100</posy>
 				<width>710</width>
-				<height>480</height>
-				<itemgap>9</itemgap>
+				<height>563</height>
+				<itemgap>4</itemgap>
 				<onleft>3</onleft>
 				<onright>3</onright>
 				<orientation>vertical</orientation>
