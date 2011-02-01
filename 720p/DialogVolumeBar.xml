@@ -30,8 +30,10 @@
 			<info>Player.Volume</info>
 		</control>
 		<control type="label" id="1">
-			<posx>20r</posx>
-			<align>right</align>
+			<posy>30</posy>
+			<posx>20</posx>
+			<align>center</align>
+			<width>260</width>
 			<label>$INFO[Player.Volume]</label>
 			<include>notificationSide</include>
 		</control>
