@@ -163,6 +163,72 @@
 			</control>
 		</control>
 	</include>
+	<include name="Background_Home">
+		<control type="group">
+			<control type="image">
+				<description>Background Image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1280</width>
+				<height>720</height>
+				<aspectratio>stretch</aspectratio>
+				<include condition="Skin.String(Custom_Background)">Custom_Background</include>
+				<include condition="!Skin.String(Custom_Background) + !Skin.HasSetting(Background1)">Background1</include>
+				<include condition="!Skin.String(Custom_Background) + Skin.HasSetting(Background2)">Background2</include>
+				<include condition="!Skin.String(Custom_Background) + Skin.HasSetting(Background3)">Background3</include>
+				<include condition="!Skin.String(Custom_Background) + Skin.HasSetting(Background4)">Background4</include>
+				<fadetime>200</fadetime>
+			</control>
+			<control type="multiimage" id="1">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1280</width>
+				<height>720</height>
+				<aspectratio>scale</aspectratio>
+				<imagepath>../../../userdata/Thumbnails/PlexMediaServer/Fanart/</imagepath>
+				<timeperimage>8000</timeperimage>
+				<fadetime>1000</fadetime>
+				<randomize>true</randomize>
+				<loop>yes</loop>
+				<visible>Skin.HasSetting(FanartSlideShow)</visible>
+				<animation type="WindowOpen">
+				<effect type="fade" start="0" end="100" time="800" delay="0" />
+				</animation>
+			</control>
+			<control type="image">
+				<width>1280</width>
+				<height>720</height>
+				<aspectratio>stretch</aspectratio>
+				<colordiffuse>ddffffff</colordiffuse>
+				<include condition="Skin.String(Custom_Background)">Custom_Background</include>
+				<include condition="!Skin.String(Custom_Background) + !Skin.HasSetting(Background1)">Background1</include>
+				<include condition="!Skin.String(Custom_Background) + Skin.HasSetting(Background2)">Background2</include>
+				<include condition="!Skin.String(Custom_Background) + Skin.HasSetting(Background3)">Background3</include>
+				<include condition="!Skin.String(Custom_Background) + Skin.HasSetting(Background4)">Background4</include>
+				<visible>Skin.HasSetting(FanartSlideShow)</visible>
+			</control>
+			<control type="image">
+				<description>Background Image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1280</width>
+				<height>720</height>
+				<aspectratio>stretch</aspectratio>
+				<include condition="Skin.HasSetting(Bokeh1)">Bokeh1</include>
+				<fadetime>0</fadetime>
+			</control>
+			<control type="image">
+				<description>Background Image</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1280</width>
+				<height>720</height>
+				<aspectratio>stretch</aspectratio>
+				<include condition="Skin.HasSetting(Bokeh2)">Bokeh2</include>
+				<fadetime>0</fadetime>
+			</control>
+		</control>
+	</include>
 	<include name="BackgroundReset">
 		<onclick>Skin.Reset(Custom_Background)</onclick>
 		<onclick>Skin.Reset(Background1)</onclick>
