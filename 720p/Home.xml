@@ -161,6 +161,11 @@
 						<onclick>XBMC.PlayDVD</onclick>
 						<visible>System.HasMediadvd + Skin.HasSetting(ShowDVD)</visible>
 					</item>
+					<item id="3">
+						<description>Search Menu</description>
+						<label> Search </label>
+						<onclick>Plex.ActivateWindow(10051)</onclick>
+					</item>
 				</content>
 			</control>
 			<control type="list" id="400">
