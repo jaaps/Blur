@@ -23,6 +23,7 @@
 			<control type="label">
 				<label>Searching...</label>
 				<font>SearchResult</font>
+				<height>-</height>
 				<posx>48</posx>
 				<posy>6</posy>
 			</control>
@@ -658,6 +659,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Title]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFdddddd</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -670,6 +672,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Year]</label>
 									<font>SearchResultSmaller</font>
+									<height>-</height>
 									<textcolor>FF999999</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -695,6 +698,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Title]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -707,6 +711,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Year]</label>
 									<font>SearchResultSmaller</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -776,6 +781,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Title]</label>
 									<font>MediumSmallTitleFont</font>
+									<height>-</height>
 									<textcolor>FF999999</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -801,6 +807,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Title]</label>
 									<font>MediumSmallTitleFont</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -872,6 +879,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.tvshowtitle]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFdddddd</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -884,6 +892,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.title]</label>
 									<font>SearchResultSmaller</font>
+									<height>-</height>
 									<textcolor>FF999999</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -910,6 +919,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.tvshowtitle]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -922,6 +932,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.title]</label>
 									<font>SearchResultSmaller</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -992,6 +1003,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Title]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFdddddd</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1017,6 +1029,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Title]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1087,6 +1100,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.artist]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFdddddd</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1099,6 +1113,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.title]</label>
 									<font>SearchResultSmaller</font>
+									<height>-</height>
 									<textcolor>FF999999</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1124,6 +1139,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.artist]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1136,6 +1152,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.title]</label>
 									<font>SearchResultSmaller</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1206,6 +1223,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.artist]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFdddddd</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1218,6 +1236,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.title]</label>
 									<font>SearchResultSmaller</font>
+									<height>-</height>
 									<textcolor>FF999999</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1243,6 +1262,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.artist]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1255,6 +1275,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.title]</label>
 									<font>SearchResultSmaller</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1324,6 +1345,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Title]</label>
 									<font>MediumSmallTitleFont</font>
+									<height>-</height>
 									<textcolor>FF999999</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1349,6 +1371,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.Title]</label>
 									<font>MediumSmallTitleFont</font>
+									<height>-</height>
 									<textcolor>FFFFFFFF</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 								</control>
@@ -1438,6 +1461,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.title]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFdddddd</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<height>-</height>
@@ -1489,6 +1513,7 @@
 									<scroll>false</scroll>
 									<label>$INFO[ListItem.title]</label>
 									<font>SearchResult</font>
+									<height>-</height>
 									<textcolor>FFdddddd</textcolor>
 									<wrapmultiline>false</wrapmultiline>
 									<height>-</height>
