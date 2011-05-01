@@ -43,6 +43,12 @@
 			<label>Panel</label>
 			<onclick>Container.SetViewMode(55)</onclick>
 		</control>
+		<control type="button" id="9005">
+			<description>Poster view button</description>
+			<visible>Container.Content(episodes)</visible>
+			<label>Episode</label>
+			<onclick>Container.SetViewMode(59)</onclick>
+		</control>
 	</include>
 	<include name="Custom_Background">
 		<texture>$INFO[Skin.String(Custom_Background)]</texture>

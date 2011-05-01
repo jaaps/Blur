@@ -13,6 +13,7 @@
 			<include>Poster</include>
 			<include>Info</include>
 			<include>Horizon</include>
+			<include>Episodes</include>
 		</control>
 		<include>SideMenuBackground</include>
 		<control type="grouplist" id="9000">
